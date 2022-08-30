@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero {
+    background: url("../img/image@2x.png") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 40rem;
+    padding: 6rem 30px;
+    border-bottom: 10px solid #008340;
+}
+
+.hero-section {
+    margin-top: 30px;
+}
+
+#carouselHeroIndicators .carousel-item img {
+    height: 24.8rem;
+    width: 100%;
+    object-fit: fill;
+    background-size: contain;
+    border-bottom: 10px solid #008340;
+}
+
+.hero-second {
+    margin-top: 5px;
+    height: 14.9rem;
+    border-bottom: 10px solid #008340;
+    background: url("../img/image@2x.png") center center no-repeat;
+}
+
+.content {
+    width: 40rem;
+
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.content h3 {
+    font-weight: 300;
+}
+
+
+/* ****************About********************* */
+.about {
+    margin-top: 20px;
+    padding: 10px 8rem;
+}
+
+.about .about-header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.about .about-header a {
+    height: 50px;
+    line-height: 35px;
+    width: 13rem;
+}
+
+
+.about .about-header .title-container h1 {
+    margin-bottom: 0;
+}
+
+.about .about-header .title-container span {
+    background-color: #caa45d;
+    display: block;
+    height: 10px;
+    margin-top: 3px;
+    width: 8rem;
+}
+
+
+
+.about .about-content p {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 15px 0;
+}
+
+
+.about .about-content p:first-child {
+    margin-bottom: 20px;
+}
+
+/* ****************About********************* */
+
+/* ****************stats********************* */
+
+.stats {
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.stats h2 {
+    text-align: center;
+    color: #caa45d;
+    margin-top: 20px;
+}
+
+.stats p {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+/* ****************stats********************* */
+/* ****************structure********************* */
+.structure {
+    padding: 8rem 5rem;
+    background: linear-gradient(0deg, rgba(1, 42, 2, 0.9), rgba(1, 42, 2, 0.5)), url("../img/image@2x.png") center center no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.structure .title-container h1 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.structure .title-container span {
+    background-color: #caa45d;
+    display: block;
+    height: 10px;
+    margin-top: 3px;
+    width: 8rem;
+}
+
+.panel-structure {
+    padding: 10px;
+
+    border: 1px solid #caa45d;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-items: center;
+}
+
+.panel-structure.active {
+    background-color: #caa45d;
+}
+
+.panel-structure p.active {
+    color: #004e1f;
+
+}
+
+.panel-structure p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button {
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+#collapseWidthExample {
+    position: relative;
+}
+
+
+#collapseWidthExample #person {
+    top: -10px;
+    right: 0;
+}
+
+#collapseWidthExample p {
+    color: #fff;
+    font-size: 25px;
+    width: 40rem;
+}
+
+.adherents,
+.actualite {
+    padding: 20px;
+}
+
+.actualite .card-info {
+    display: flex;
+    align-items: center;
+}
+
+.actualite .card-footer {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.actualite .carousel-indicators {
+    bottom: -38px;
+}
+
+.actualite .carousel-indicators [data-bs-target] {
+    background-color: #004e1f;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    {
+    border-radius: 10px;
+    background-color: gray;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px 0;
+
+}
+
+.title-container {
+    margin-bottom: 20px;
+}
+
+.title-container span {
+    background-color: #caa45d;
+    display: block;
+    height: 10px;
+    margin-top: 3px;
+    width: 8rem;
+}
+
+.title-container h1 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.partenaire .title-container {
+    margin-bottom: 20px;
+}
+
+.partenaire .title-container span {
+    background-color: #caa45d;
+    display: block;
+    height: 10px;
+    margin-top: 3px;
+    width: 8rem;
+}
+
+.partenaire .title-container h1 {
+    margin-bottom: 0;
+}
+
+.partenaire .company-logo {
+    border: 1px solid #ebebee;
+    padding: 10px;
+}
+
+.partenaire .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    height: 10rem;
+    background-color: rgb(245, 245, 245);
+}
+
+.partenaire .logo img {
+    object-fit: contain;
+    width: 60% !important;
+}
+
+.partenaire a {
+    text-decoration: none;
+}
+
+.partenaire .join-us {
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.9), rgba(50, 50, 50, 0.5)), url("/img/Groupe.png") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    align-content: center;
+}
+
+.actualite .card-act {
+    min-height: 34rem;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    /*Tablets [601px -> 1200px]*/
+    .partenaire .join-us {
+        margin-top: 10px;
+        height: 20rem;
+    }
+
+    .actualite .card-act {
+        height: auto;
+    }
+
+    .about {
+        padding: 10px;
+    }
+
+    .structure {
+        height: 80rem;
+    }
+
+    #collapseWidthExample #person {
+        top: 14rem;
+        right: -41px;
+        width: 22rem;
+    }
+    #collapseWidthExample p {
+        font-size: 20px;
+        width: auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*Big smartphones [426px -> 600px]*/
+    .partenaire .join-us {
+        margin-top: 10px;
+        height: 20rem;
+    }
+
+    .actualite .card-act {
+        height: auto;
+    }
+
+    .about {
+        padding: 10px;
+    }
+    #collapseWidthExample p {
+        font-size: 20px;
+        width: auto;
+    }
+    #collapseWidthExample #person {
+        top: 14rem;
+        right: -41px;
+        width: 22rem;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    /*Small smartphones [325px -> 425px]*/
+    .partenaire .join-us {
+        margin-top: 10px;
+        height: 20rem;
+    }
+
+    .actualite .card-act {
+        height: auto;
+    }
+
+    .about {
+        padding: 10px;
+    }
+    #collapseWidthExample p {
+        font-size: 20px;
+        width: auto;
+    }
+    #collapseWidthExample #person {
+        top: 14rem;
+        right: -41px;
+        width: 22rem;
+    }
+
+}

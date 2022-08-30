@@ -1,0 +1,45 @@
+
+#nav{
+    border-top: 8px solid #caa45d;
+    position: relative;    
+}
+
+
+#lastNav{
+    margin-right: 5rem;
+}
+
+#account{
+    position: absolute;
+    height: 66px;
+    display: flex;
+    top: -8px;
+    width: 45px;
+    right: 17px;
+    z-index: 0;
+    background-color: #008340;
+    justify-content: center;
+    align-items: center;
+}
+
+#account img{
+    z-index: 20;
+}
+
+a#flag{
+    margin-right: 3rem !important;
+    border-bottom: none !important;
+}
+#nav .nav-item .nav-link{
+    border-bottom: 10px solid #008340;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+    color: #008340;
+}
+
+
+#nav .nav-item .nav-link.active{
+    color: #caa45d;
+    border-bottom: 10px solid #caa45d;
+}
