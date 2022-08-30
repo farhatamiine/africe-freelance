@@ -44,6 +44,7 @@
     background-color: rgb(0, 55, 29);
     width: 6rem;
     height: 6rem;
+    border-radius: 12px;
     position: absolute;
     top: -4rem;
     display: flex;
@@ -94,7 +95,11 @@
 
 .social-media-section{
     padding: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
+}
+
+.social-media-section .title{
+    text-transform: uppercase;
 }
 
 .social-media-section .social-card{
@@ -104,18 +109,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 1;
     border-radius: 8px;
     justify-content: center;
 }
 .social-media-section .card-wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .social-contact {
     background-color: rgb(245, 240, 230);
-    height: 15rem;
+    height: 20rem;
     width: 100%;
     position: relative;
     display: flex;align-items: center;
@@ -124,20 +131,41 @@
 
 
 .social-contact .social-circle{
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 13rem;
     position: absolute;
     background-color: rgb(245, 240, 230);
     display: flex;
     align-items: flex-start;
     padding: 5px;
     justify-content: center;
-    top: -3rem;
+    
+    border-radius: 20px;
+    top: -6rem;
 
 }
 
 .social-contact .social-circle img{
-    width: 90%;
+    width: 80%;
+}
+
+.social-contact .item {
+    width: auto;
+    min-width: 40px;
+    border-right: 1px solid;
+    height: auto;
+    text-align: center;
+}
+.social-contact .item h4{
+    color: rgb(0, 55, 29);
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.social-contact .item p{
+    margin: 0;
+    font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -146,9 +174,20 @@
    
     .contact-section .contact-container {
         margin-bottom: 8rem;
-        background-color:  rgb(0, 55, 29);
+       
     }
 
+    .social-media-section .title{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    br{
+        display: none;
+    }
+    .contact-form-section button{
+        margin-bottom: 3rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -157,6 +196,9 @@
     .contact-section .contact-container {
         margin-bottom: 6rem;
     }
+    .contact-form-section button{
+        margin-bottom: 3rem;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -164,5 +206,9 @@
     /*Small smartphones [325px -> 425px]*/
     .contact-section .contact-container {
         margin-bottom: 6rem;
+    }
+
+    .contact-form-section button{
+        margin-bottom: 3rem;
     }
 }
