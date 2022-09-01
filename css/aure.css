@@ -1,0 +1,92 @@
+.hero-section{
+    background: url("../img/actualite.png") center center no-repeat;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.hero-section .hero-title{
+    text-align: center;
+    color: white;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+.line{
+    width:7rem;
+    background-color: #caa45d;
+    display: inline-block;
+    height: 10px;
+    margin-bottom: 2rem;
+}
+
+.aure-section{
+    padding: 5rem;
+}
+
+.aure-section h3{
+    color: rgb(1, 42, 2);
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: bold !important;
+}
+
+.aure-section p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-justify: auto;
+    text-align: justify;
+    font-weight: lighter !important;
+}
+
+
+.aure-section .video-container{
+    min-height: 15rem;
+    padding-top: 3rem;
+}
+
+.aure-section .video-bg{
+    background: url("../img/ACT7.png") center center no-repeat;
+    background-size: cover;
+    height: 22rem;
+}
+
+.list-group-item{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: #727272;
+    border: 1px solid #caa45d;
+}
+.list-group-item+.list-group-item{
+    border-top-width: 1px;
+}
+
+.list-group-item.active{
+    background-color: transparent;
+    color: #caa45d;
+    border-color: unset;
+}
+
+.item{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item img{
+    width: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.item p{
+    text-align: center;
+}

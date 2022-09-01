@@ -1,0 +1,44 @@
+.hero-section{
+    background: url("../img/actualite.png") center center no-repeat;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.hero-section .hero-title{
+    text-align: center;
+    color: white;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.actualite-section {
+    min-height: 50rem;
+    padding: 3rem;
+    width: 100%;
+}
+
+.actualite-section .activité{
+    background: url("../img/event.png") center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.actualite-section .gallery{
+    background: url("../img/GALERIE.png") center center no-repeat;
+    background-size: cover;
+    height: 50%;
+    margin-top: 4rem;
+}
+
+.actualite-section .news{
+    background: url("../img/MEDIA.png") center center no-repeat;
+    background-size: cover;
+    height: 50%;
+    margin-bottom: 4rem;
+}

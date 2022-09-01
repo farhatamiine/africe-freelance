@@ -59,6 +59,11 @@ footer .newsletter-from button{
     border: 0;
 }
 
+footer .newsletter-from button>svg{
+    color: rgb(2, 26, 15);
+    width: 34px;
+}
+
 
 footer .green{
     background-color: rgb(2, 26, 15);
