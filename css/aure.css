@@ -90,3 +90,79 @@
 .item p{
     text-align: center;
 }
+
+.nav-details{
+    color: #295740;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 17px;
+}
+
+.sub-item ul{
+   list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='-1 -1 2 2'><rect width='20' height='20' /></svg>");
+
+}
+
+.sub-item ul li{
+    padding: 0 0 1rem 0.5rem;
+}
+
+.sub-item ul li a{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #295740;
+    text-decoration: none;
+}
+
+.sub-item a[aria-selected="true"] {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #295740;
+    text-decoration: underline;
+    line-height: 10px;
+    text-decoration-color: #caa45d;
+}
+
+
+#list-secretariat-general h3{
+    font-weight: 900 !important;
+    font-size: 2.5rem;
+}
+.list-mission{
+    list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='29' height='29' viewBox='-1 -1 2 2'><rect  width='20'   height='20' /></svg>");
+}
+
+.list-mission li{
+    font-size: 1.3rem;
+    color: #838383;
+    margin-bottom: 3px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .aure-section{
+        padding: 1rem;
+    }
+
+    .section{
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .aure-section{
+        padding: 1rem;
+    }
+  
+}
+
+@media only screen and (max-width: 425px) {
+
+    .aure-section{
+        padding: 1rem;
+    }
+
+}
