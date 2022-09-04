@@ -1,12 +1,83 @@
-@import url('http://fonts.cdnfonts.com/css/nexa-bold?styles=29919,29913');
-                
-
-* {
-    box-sizing: border-box;
+@font-face {
+  font-family: "nexa_boldregular";
+  src: url("../FONTS/nexa_bold-webfont.woff") format("woff2"),
+    url("../FONTS/nexa_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Nexa', sans-serif;
-    font-weight: bold;
+@font-face {
+  font-family: "nexa_lightregular";
+  src: url("../FONTS/nexa_light-webfont.woff2") format("woff2"),
+    url("../FONTS/nexa_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "nexaregularuploaded_file";
+  src: url("../FONTS/nexa_regular-webfont.woff2") format("woff2"),
+    url("../FONTS/nexa_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helveticaregular";
+  src: url("../FONTS/helvetica-webfont.woff2") format("woff2"),
+    url("../FONTS/helvetica-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helveticabold";
+  src: url("../FONTS/helvetica-bold-webfont.woff2") format("woff2"),
+    url("../FONTS/helvetica-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helveticabold_oblique";
+  src: url("../FONTS/helvetica-boldoblique-webfont.woff2") format("woff2"),
+    url("../FONTS/helvetica-boldoblique-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helveticaoblique";
+  src: url("../FONTS/helvetica-oblique-webfont.woff2") format("woff2"),
+    url("../FONTS/helvetica-oblique-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helveticarounded_bold";
+  src: url("../FONTS/helvetica-rounded-bold-5871d05ead8de-webfont.woff2")
+      format("woff2"),
+    url("../FONTS/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "nexa_boldregular", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "helveticaregular", sans-serif;
 }

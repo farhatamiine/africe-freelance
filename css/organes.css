@@ -1,0 +1,379 @@
+.bg-green {
+  background-color: #1f3b09;
+}
+
+.search-item {
+}
+
+.item-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #0d482f;
+  border-radius: 10px;
+  padding: 0 1rem;
+}
+
+.item-info {
+  border: 1px solid #0d482f;
+  width: 100%;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 10px;
+  margin: 0 10px;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.item-info h4 {
+  font-weight: 900 !important;
+}
+
+.list-group {
+  list-style: none;
+}
+
+.list-group-item-choose {
+  border: 1px solid #0d482f;
+  padding: 10px 0.9rem;
+  width: 12rem;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+}
+
+.list-group-item-choose {
+  text-align: left;
+}
+
+.list-group-item-choose svg {
+  width: 32px;
+  margin-right: 10px;
+  border-right: 1px solid;
+  padding-right: 10px;
+}
+
+.list-group-item-choose.active {
+  background-color: #0d482f;
+  color: #caa45d;
+}
+
+.hero-section {
+  background: url("../img/actualite.png") center center no-repeat;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+
+.hero-section .hero-title {
+  text-align: center;
+  color: white;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.line {
+  width: 7rem;
+  background-color: #caa45d;
+  display: inline-block;
+  height: 10px;
+  margin-bottom: 2rem;
+}
+
+.organe-section {
+  padding: 5rem;
+}
+
+.organe-section h3 {
+  color: rgb(1, 42, 2);
+  font-size: 2rem;
+  margin-bottom: 0;
+  font-weight: bold !important;
+}
+
+.organe-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-justify: auto;
+  text-align: justify;
+  font-weight: lighter !important;
+}
+
+.organe-section .slider-container {
+  min-height: 15rem;
+  padding-top: 3rem;
+}
+
+.organe-section .video-bg {
+  background: url("../img/ACT7.png") center center no-repeat;
+  background-size: cover;
+  height: 22rem;
+}
+
+.list-group-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #727272;
+  border: 1px solid #caa45d;
+}
+.list-group-item + .list-group-item {
+  border-top-width: 1px;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  color: #caa45d;
+  border-color: unset;
+}
+
+.item {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item img {
+  width: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.item p {
+  text-align: center;
+}
+
+.nav-details {
+  color: #295740;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-right: 17px;
+}
+
+.sub-item ul {
+  list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='-1 -1 2 2'><rect width='20' height='20' /></svg>");
+}
+
+.sub-item ul li {
+  padding: 0 0 1rem 0.5rem;
+}
+
+.sub-item ul li a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #295740;
+  text-decoration: none;
+}
+
+.sub-item a[aria-selected="true"] {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #295740;
+  text-decoration: underline;
+  line-height: 10px;
+  text-decoration-color: #caa45d;
+}
+
+#list-secretariat-general h3 {
+  font-weight: 900 !important;
+  font-size: 2.5rem;
+}
+.list-mission {
+  list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='29' height='29' viewBox='-1 -1 2 2'><rect  width='20'   height='20' /></svg>");
+}
+
+.list-mission li {
+  font-size: 1.3rem;
+  color: #838383;
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aure-section {
+    padding: 1rem;
+  }
+
+  .section {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aure-section {
+    padding: 1rem;
+  }
+}
+
+.title {
+  padding: 10px;
+  background-color: #0d482f;
+  color: #caa45d;
+  margin: 0;
+  width: fit-content;
+  align-items: center;
+}
+
+@media only screen and (max-width: 425px) {
+  .aure-section {
+    padding: 1rem;
+  }
+}
+
+.owl-carousel .nav-btn {
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 100px !important;
+}
+
+.sign-div {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+.comission {
+  list-style: square;
+}
+.comission li {
+  padding: 6px;
+  font-size: 20px;
+}
+#list-commissions {
+  padding-top: 20px;
+}
+
+#list-president p,
+#list-secretariat-general p,
+#list-tresorerie-generale p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+#list-secretariat-general .person,
+#list-tresorerie-generale .person {
+  top: 0rem;
+  right: 24px;
+  width: 73%;
+}
+
+.person {
+  position: absolute;
+  top: 1rem;
+  right: -12px;
+  width: 92%;
+}
+.sign {
+  margin-left: 5rem;
+  font-size: 2rem !important;
+  width: 60rem;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.img-sign {
+  top: -2.5rem;
+}
+
+.sign-div img {
+  top: -34px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .person {
+    position: absolute;
+    top: -1rem;
+    right: 6rem;
+    width: 66%;
+  }
+  .organe-section {
+    padding: 1rem;
+  }
+  .data {
+    margin-top: 18rem;
+  }
+
+  .divider p {
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .divider span {
+    display: none;
+  }
+  .sign {
+    margin-left: 5rem;
+    font-size: 1.6rem !important;
+    width: auto;
+    text-align: left;
+  }
+  .sign-div img {
+    top: -7px;
+  }
+
+  .list-group-choose svg {
+    display: none;
+  }
+
+  .list-group-choose {
+    flex-direction: column;
+  }
+
+  .item-content {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .item-info {
+    width: 100%;
+    height: auto;
+    border: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 0 10px;
+  }
+
+  .item-info h4,
+  .item-info p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .organe-section {
+    padding: 1rem;
+  }
+  .sign-div img {
+    top: -7px;
+  }
+  .data {
+    margin-top: 18rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .organe-section {
+    padding: 1rem;
+  }
+  .sign-div img {
+    top: -7px;
+  }
+  .data {
+    margin-top: 18rem;
+  }
+}

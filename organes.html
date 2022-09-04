@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/organes.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div id="account" class="d-none d-lg-flex">
+            <img src="/svg/account.svg" alt="" width="25" />
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/svg/logo.svg" alt="" width="180" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Aure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conferance des Presidents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Actualite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div>
+                    <ul class="navbar-nav mb-2 mb-lg-0" id="lastNav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="flag" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="/img/france.png" alt="" width="30" class="me-2" />
+                                FR
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">AR</a></li>
+                                <li><a class="dropdown-item" href="#">ES</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item d-flex">
+                            <div class="d-inline-flex align-items-center">
+                                <img src="/svg/email.svg" alt="" width="25" />
+                                <img src="/svg/phone.svg" class="mx-2" alt="" width="25" />
+                                <img src="/svg/address.svg" width="25" alt="" />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Start Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h2 class="hero-title">ORGANES</h2>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <section class="organe-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action mb-3 text-center text-white text-uppercase rounded-1"
+                            style="background-color: #caa45d;">
+                            ORGANES
+                        </a>
+                        <a class="list-group-item list-group-item-action active" id="list-conference-president-list"
+                            data-bs-toggle="list" href="#list-conference-president" role="tab"
+                            aria-controls="list-home">Conférence Des Président</a>
+                        <a class="list-group-item list-group-item-action" id="list-president-list" data-bs-toggle="list"
+                            href="#list-president" role="tab" aria-controls="list-profile">Le Président</a>
+                        <a class="list-group-item list-group-item-action" id="list-secretariat-general-list"
+                            data-bs-toggle="list" href="#list-secretariat-general" role="tab"
+                            aria-controls="list-messages">Secrétariat Général</a>
+                        <a class="list-group-item list-group-item-action" id="list-tresorerie-generale-list"
+                            data-bs-toggle="list" href="#list-tresorerie-generale" role="tab"
+                            aria-controls="list-messages">Trésorerie Générale</a>
+                        <a class="list-group-item list-group-item-action " id="list-commissions-list"
+                            data-bs-toggle="list" href="#list-commissions" role="tab"
+                            aria-controls="list-commissions-list">Commissions</a>
+                        <a class="list-group-item list-group-item-action " id="list-adherents-list"
+                            data-bs-toggle="list" href="#list-adherents" role="tab"
+                            aria-controls="list-adherents">Adhérents</a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12 section">
+                    <div class="card p-4">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-conference-president" role="tabpanel"
+                                aria-labelledby="list-conference-president-list">
+                                <h3>CONFÉRENCE DES PRÉSIDENTS</h3>
+                                <span class="line"></span>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Aliquam ante ex, volutpat laoreet massa sed, tincidunt
+                                    commodo mauris. Aenean eu consequat eros. Donec ut erat
+                                    nisi.
+                                </p>
+                                <p>
+                                    Etiam vel orci nisl. Praesent dignissim turpis quis vulputate consectetur. Sed quis
+                                    metus sodales enim
+                                    consectetur iaculis eu et nisl. Aliquam ut lorem sapien. Sed euismod laoreet
+                                    pulvinar. Nunc rhoncus ante sit
+                                    amet felis suscipit hendrerit. Nunc ut magna a dui ultricies lobortis vitae et erat.
+                                    Etiam vel orci nisl. Praesent dignissim turpis quis vulputate consectetur. Sed quis
+                                    metus sodales enim
+                                    consectetur iaculis eu et nisl. Aliquam ut lorem sapien. Sed euismod laoreet
+                                    pulvinar. Nunc rhoncus ante sit
+                                    amet felis suscipit hendrerit. Nunc ut magna a dui ultricies lobortis vitae et erat.
+                                </p>
+                                <div class="slider-container">
+                                    <div class="owl-carousel owl-slider-president owl-theme">
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/D.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">TOUFIK KAMIL</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 23.png" style="width:22%;" alt="">
+                                                    <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                        style="bottom: -10px;">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/C.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">ERIC MAGBO</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 27.png" style="width:22%;" alt="">
+                                                    <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                        style="bottom: -10px;">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/B.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">ISSA TAGOUANI</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 28.png" style="width:22%;" alt="">
+                                                    <div class="d-flex align-items-center position-absolute ps-2 w-100 h-25"
+                                                        style="bottom: -10px;">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/C.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">FAL ALAN KONY</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 27.png" style="width:22%;" alt="">
+                                                    <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                        style="bottom: -10px;">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/C.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">ERIC MAGBO</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 27.png" style="width:22%;" alt="">
+                                                    <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                        style="bottom: -10px;">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/C.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">ERIC MAGBO</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 27.png" style="width:22%;" alt="">
+                                                    <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                        style="bottom: -10px;">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/C.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">ERIC MAGBO</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 27.png" style="width:22%;" alt="">
+                                                    <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                        style="bottom: -10px;">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/C.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">ERIC MAGBO</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 27.png" style="width:22%;" alt="">
+                                                    <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                        style="bottom: -10px;">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem; height:28rem;">
+                                            <div class="bg-white h-50">
+                                            </div>
+                                            <div class="bg-green body position-relative h-100">
+                                                <img src="./img/C.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                    class="position-absolute">
+                                                <div style="margin-top: 5rem;"
+                                                    class="d-flex flex-column align-items-center text-center">
+                                                    <h4 style="color: #caa35c;">ERIC MAGBO</h4>
+                                                    <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                    <img src="./img/Image 27.png" style="width:22%;" alt="">
+                                                    <div
+                                                        class="d-flex align-items-center position-absolute  ps-2 w-100 h-25">
+                                                        <img src="./img/JOIN.png" class=""
+                                                            style="width:25px;filter:contrast(0) sepia(1);" alt="">
+                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
+                                                            Profile</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-president" role="tabpanel"
+                                aria-labelledby="list-president-list">
+                                <h3>LE PRÉSIDENT</h3>
+                                <span class="line"></span>
+                                <div style="margin-bottom: 4rem">
+                                    <div class="row">
+                                        <div class="col-md-6 ">
+                                            <h4 class="title">MR KAMIL TAOUFIK</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Aliquam ante ex, volutpat laoreet massa sed,
+                                                tincidunt commodo mauris. Aenean eu consequat
+                                                eros. Donec ut erat nisi.</p>
+                                            <p>Etiam vel orci nisl. Praesent dignissim turpis quis
+                                                vulputate consectetur. Sed quis metus sodales enim
+                                                consectetur iaculis eu et nisl. Aliquam ut lorem sapien.
+                                                Sed euismod laoreet pulvinar. Nunc rhoncus ante sit
+                                                amet felis suscipit hendrerit. Nunc ut magna a dui
+                                                ultricies lobortis vitae et erat.
+                                                Etiam vel orci nisl. Praesent dignissim turpis quis</p>
+                                        </div>
+                                        <div class="col-md-6 position-relative">
+                                            <img src="./img/person.png" class="img-fluid person" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="position-relative data">
+                                    <img class="position-absolute me-4 img-sign" src="./svg/semiclone.svg" alt="">
+                                    <p class="sign">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                        ante ex, volutpat laoreet massa sed, tincidunt commodo mauris.
+                                        Aenean eu consequat eros. Donec ut erat nisi</p>
+                                    <div class="position-relative sign-div">
+                                        <img src="./img/sign.png" class="position-absolute img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-secretariat-general" role="tabpanel"
+                                aria-labelledby="list-secretariat-general-list">
+                                <h3>LE SECRÉTAIRE GÉNÉRAL</h3>
+                                <span class="line"></span>
+                                <div style="margin-bottom: 4rem">
+                                    <div class="row">
+                                        <div class="col-md-6 ">
+                                            <h4 class="title">MR NOKTA AMINE</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Aliquam ante ex, volutpat laoreet massa sed,
+                                                tincidunt commodo mauris. Aenean eu consequat
+                                                eros. Donec ut erat nisi.</p>
+                                            <p>Etiam vel orci nisl. Praesent dignissim turpis quis
+                                                vulputate consectetur. Sed quis metus sodales enim
+                                                consectetur iaculis eu et nisl. Aliquam ut lorem sapien.
+                                                Sed euismod laoreet pulvinar. Nunc rhoncus ante sit
+                                                amet felis suscipit hendrerit. Nunc ut magna a dui
+                                                ultricies lobortis vitae et erat.
+                                                Etiam vel orci nisl. Praesent dignissim turpis quis</p>
+                                        </div>
+                                        <div class="col-md-6 position-relative">
+                                            <img src="./img/AMINE SECR.png" class="img-fluid person" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="position-relative data">
+                                    <img class="position-absolute me-4 img-sign" src="./svg/semiclone.svg" alt="">
+                                    <p class="sign">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                        ante ex, volutpat laoreet massa sed, tincidunt commodo mauris.
+                                        Aenean eu consequat eros. Donec ut erat nisi</p>
+                                    <div class="position-relative sign-div">
+                                        <img src="./img/sign-amine.png" class="position-absolute img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade " id="list-tresorerie-generale" role="tabpanel"
+                                aria-labelledby="list-tresorerie-generale-list">
+                                <h3 class="text-uppercase">LE tresorerie GÉNÉRAL</h3>
+                                <span class="line"></span>
+                                <div style="margin-bottom: 4rem">
+                                    <div class="row">
+                                        <div class="col-md-6 ">
+                                            <h4 class="title">MR AHMED AZIZ</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                elit. Aliquam ante ex, volutpat laoreet massa sed,
+                                                tincidunt commodo mauris. Aenean eu consequat
+                                                eros. Donec ut erat nisi.</p>
+                                            <p>Etiam vel orci nisl. Praesent dignissim turpis quis
+                                                vulputate consectetur. Sed quis metus sodales enim
+                                                consectetur iaculis eu et nisl. Aliquam ut lorem sapien.
+                                                Sed euismod laoreet pulvinar. Nunc rhoncus ante sit
+                                                amet felis suscipit hendrerit. Nunc ut magna a dui
+                                                ultricies lobortis vitae et erat.
+                                                Etiam vel orci nisl. Praesent dignissim turpis quis
+                                                vulputate consectetur. Sed quis metus sodales enim
+                                                consectetur iaculis eu et nisl. Aliquam ut lorem sapien</p>
+                                        </div>
+                                        <div class="col-md-6 position-relative">
+                                            <img src="./img/AMINE SECR.png" class="img-fluid person" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="position-relative data">
+                                    <img class="position-absolute me-4 img-sign" src="./svg/semiclone.svg" alt="">
+                                    <p class="sign">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                        ante ex, volutpat laoreet massa sed, tincidunt commodo mauris.
+                                        Aenean eu consequat eros. Donec ut erat nisi</p>
+                                    <div class="position-relative sign-div">
+                                        <img src="./img/ahmed-sign.png" class="position-absolute img" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="list-commissions" role="tabpanel"
+                                aria-labelledby="list-commissions-list">
+                                <h3>LES COMMISSIONS</h3>
+                                <span class="line"></span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante ex, volutpat
+                                    laoreet
+                                    massa sed, tincidunt commodo mauris. Aenean eu consequat eros. Donec ut erat nisi.
+                                    Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante ex, volutpat laoreet
+                                    massa sed,
+                                    tincidunt commodo mauris. Aenean eu consequat eros. Donec ut erat nisi.</p>
+                                <div>
+                                    <div class="d-flex align-items-center mb-lg-5 divider">
+                                        <p class="w-25 mb-0  p-2  text-center"
+                                            style="color:#a38e4f;background-color: #00371c; font-weight: 500 !important;font-size: 20px;">
+                                            COMMISSION JURIDIQUE
+                                        </p>
+                                        <span class="w-75 border border-bottom  border-0 rounded-1"
+                                            style="border-bottom: 3px solid #00371c  !important;"></span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <p>Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Aliquam ante ex, volutpat laoreet
+                                                massa sed, tincidunt commodo mauris. Aenean
+                                                eu consequat eros. Donec ut erat nisi. Lorem
+                                                ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Aliquam ante ex, volutpat laoreet massa sed,
+                                                tincidunt commodo mauris. Aenean eu consequat
+                                                eros. Donec ut erat nisi.</p>
+                                            <ul class="comission">
+                                                <li>Nullam nec mauris hendrerit erat laoreet
+                                                    consectetur.</li>
+                                                <li>Maecenas venenatis turpis ac lacus ultricies
+                                                    dictum.</li>
+                                                <li>Aenean gravida turpis vitae mi iaculis, non
+                                                    mollis nulla interdum.</li>
+                                                <li>Integer eget urna at nibh dignissim
+                                                    ullamcorper eu elementum ex.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12">
+                                            <div class="owl-carousel owl-slider-comission owl-theme">
+                                                <div class="card" style="width: 18rem; height:28rem;">
+                                                    <div class="bg-white h-50">
+                                                    </div>
+                                                    <div class="bg-green body position-relative h-100">
+                                                        <img src="./img/D.png" style="width:45%;top: -5rem ;left: 25%;"
+                                                            alt="" class="position-absolute">
+                                                        <div style="margin-top: 5rem;"
+                                                            class="d-flex flex-column align-items-center text-center">
+                                                            <h4 style="color: #caa35c;">TOUFIK KAMIL</h4>
+                                                            <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                            <img src="./img/Image 23.png" style="width:22%;" alt="">
+                                                            <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                                style="bottom: -10px;">
+                                                                <img src="./img/JOIN.png" class=""
+                                                                    style="width:25px;filter:contrast(0) sepia(1);"
+                                                                    alt="">
+                                                                <p class="mb-0 ms-2 text-white" style="font-size:17px;">
+                                                                    Voir
+                                                                    Profile</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem; height:28rem;">
+                                                    <div class="bg-white h-50">
+                                                    </div>
+                                                    <div class="bg-green body position-relative h-100">
+                                                        <img src="./img/D.png" style="width:45%;top: -5rem ;left: 25%;"
+                                                            alt="" class="position-absolute">
+                                                        <div style="margin-top: 5rem;"
+                                                            class="d-flex flex-column align-items-center text-center">
+                                                            <h4 style="color: #caa35c;">TOUFIK KAMIL</h4>
+                                                            <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                            <img src="./img/Image 23.png" style="width:22%;" alt="">
+                                                            <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                                style="bottom: -10px;">
+                                                                <img src="./img/JOIN.png" class=""
+                                                                    style="width:25px;filter:contrast(0) sepia(1);"
+                                                                    alt="">
+                                                                <p class="mb-0 ms-2 text-white" style="font-size:17px;">
+                                                                    Voir
+                                                                    Profile</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem; height:28rem;">
+                                                    <div class="bg-white h-50">
+                                                    </div>
+                                                    <div class="bg-green body position-relative h-100">
+                                                        <img src="./img/D.png" style="width:45%;top: -5rem ;left: 25%;"
+                                                            alt="" class="position-absolute">
+                                                        <div style="margin-top: 5rem;"
+                                                            class="d-flex flex-column align-items-center text-center">
+                                                            <h4 style="color: #caa35c;">TOUFIK KAMIL</h4>
+                                                            <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                            <img src="./img/Image 23.png" style="width:22%;" alt="">
+                                                            <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                                style="bottom: -10px;">
+                                                                <img src="./img/JOIN.png" class=""
+                                                                    style="width:25px;filter:contrast(0) sepia(1);"
+                                                                    alt="">
+                                                                <p class="mb-0 ms-2 text-white" style="font-size:17px;">
+                                                                    Voir
+                                                                    Profile</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex align-items-center mb-lg-5 divider">
+                                        <p class="w-25 mb-0  p-2  text-center"
+                                            style="color:#a38e4f;background-color: #00371c; font-weight: 500 !important;font-size: 20px;">
+                                            COMMISSION FINANCEMENT
+                                        </p>
+                                        <span class="w-75 border border-bottom  border-0 rounded-1"
+                                            style="border-bottom: 3px solid #00371c  !important;"></span>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <p>Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit. Aliquam ante ex, volutpat laoreet
+                                                massa sed, tincidunt commodo mauris. Aenean
+                                                eu consequat eros. Donec ut erat nisi. Lorem
+                                                ipsum dolor sit amet, consectetur adipiscing elit.
+                                                Aliquam ante ex, volutpat laoreet massa sed,
+                                                tincidunt commodo mauris. Aenean eu consequat
+                                                eros. Donec ut erat nisi.</p>
+                                            <ul class="comission">
+                                                <li>Nullam nec mauris hendrerit erat laoreet
+                                                    consectetur.</li>
+                                                <li>Maecenas venenatis turpis ac lacus ultricies
+                                                    dictum.</li>
+                                                <li>Aenean gravida turpis vitae mi iaculis, non
+                                                    mollis nulla interdum.</li>
+                                                <li>Integer eget urna at nibh dignissim
+                                                    ullamcorper eu elementum ex.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12">
+                                            <div class="owl-carousel owl-slider-comission owl-theme">
+                                                <div class="card" style="width: 18rem; height:28rem;">
+                                                    <div class="bg-white h-50">
+                                                    </div>
+                                                    <div class="bg-green body position-relative h-100">
+                                                        <img src="./img/D.png" style="width:45%;top: -5rem ;left: 25%;"
+                                                            alt="" class="position-absolute">
+                                                        <div style="margin-top: 5rem;"
+                                                            class="d-flex flex-column align-items-center text-center">
+                                                            <h4 style="color: #caa35c;">TOUFIK KAMIL</h4>
+                                                            <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                            <img src="./img/Image 23.png" style="width:22%;" alt="">
+                                                            <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                                style="bottom: -10px;">
+                                                                <img src="./img/JOIN.png" class=""
+                                                                    style="width:25px;filter:contrast(0) sepia(1);"
+                                                                    alt="">
+                                                                <p class="mb-0 ms-2 text-white" style="font-size:17px;">
+                                                                    Voir
+                                                                    Profile</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem; height:28rem;">
+                                                    <div class="bg-white h-50">
+                                                    </div>
+                                                    <div class="bg-green body position-relative h-100">
+                                                        <img src="./img/D.png" style="width:45%;top: -5rem ;left: 25%;"
+                                                            alt="" class="position-absolute">
+                                                        <div style="margin-top: 5rem;"
+                                                            class="d-flex flex-column align-items-center text-center">
+                                                            <h4 style="color: #caa35c;">TOUFIK KAMIL</h4>
+                                                            <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                            <img src="./img/Image 23.png" style="width:22%;" alt="">
+                                                            <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                                style="bottom: -10px;">
+                                                                <img src="./img/JOIN.png" class=""
+                                                                    style="width:25px;filter:contrast(0) sepia(1);"
+                                                                    alt="">
+                                                                <p class="mb-0 ms-2 text-white" style="font-size:17px;">
+                                                                    Voir
+                                                                    Profile</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card" style="width: 18rem; height:28rem;">
+                                                    <div class="bg-white h-50">
+                                                    </div>
+                                                    <div class="bg-green body position-relative h-100">
+                                                        <img src="./img/D.png" style="width:45%;top: -5rem ;left: 25%;"
+                                                            alt="" class="position-absolute">
+                                                        <div style="margin-top: 5rem;"
+                                                            class="d-flex flex-column align-items-center text-center">
+                                                            <h4 style="color: #caa35c;">TOUFIK KAMIL</h4>
+                                                            <p class="text-white  text-center">Etiam vel orci nis</p>
+                                                            <img src="./img/Image 23.png" style="width:22%;" alt="">
+                                                            <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
+                                                                style="bottom: -10px;">
+                                                                <img src="./img/JOIN.png" class=""
+                                                                    style="width:25px;filter:contrast(0) sepia(1);"
+                                                                    alt="">
+                                                                <p class="mb-0 ms-2 text-white" style="font-size:17px;">
+                                                                    Voir
+                                                                    Profile</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-adherents" role="tabpanel"
+                                aria-labelledby="list-adherents-list">
+                                <h3>LES ADHÉRENTS</h3>
+                                <span class="line"></span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante ex, volutpat
+                                    laoreet
+                                    massa sed, tincidunt commodo mauris. Aenean eu consequat eros. Donec ut erat nisi.
+                                    Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ante ex, volutpat laoreet
+                                    massa sed,
+                                    tincidunt commodo mauris. Aenean eu consequat eros. Donec ut erat nisi</p>
+                                <div class="d-flex w-100 justify-content-center align-items-center gap-3 mb-3">
+                                    <ul class="list-group list-group-choose gap-2 list-group-horizontal" role="tablist">
+                                        <li class="list-group-item-choose active" data-bs-toggle="list"
+                                            href="#list-bycarte" role="tab" aria-controls="list-bycarte">
+                                            <svg id="Composant_8_1" data-name="Composant 8 – 1"
+                                                xmlns="http://www.w3.org/2000/svg" width="116.592"
+                                                viewBox="0 0 116.592 124.374">
+                                                <g id="Layer_2" data-name="Layer 2">
+                                                    <g id="Layer_1" data-name="Layer 1">
+                                                        <g id="Sx4NEF.tif">
+                                                            <path id="Tracé_2875" data-name="Tracé 2875"
+                                                                d="M40.092,0c1.049.369,2.123.7,3.138,1.152a8.06,8.06,0,0,1,5.047,6.225,4.13,4.13,0,0,0,2.78,3.323c1.4.609,2.824,1.159,4.312,1.765,0-.281.026-.58.041-.879a3.406,3.406,0,0,1,3.371-3.567,15.1,15.1,0,0,1,5.11.694c3.729,1.359,7.465,1.085,11.25.617.24-.03.48-.063.738-.081,3.917-.284,5.841,1.44,5.974,5.42a14.093,14.093,0,0,1-.17,2.9c-.421,2.381.048,4.578,1.972,6.018,3.256,2.444,4.682,5.752,5.254,9.6A5.733,5.733,0,0,0,92.6,38.033a10.186,10.186,0,0,1,4.235,3.714,2.787,2.787,0,0,0,3.29,1.108c1.625-.473,3.249-.96,4.9-1.351,3.544-.846,5.52,1.3,5.228,4.933-.5,6.277-3.877,10.94-7.909,15.293a37.462,37.462,0,0,1-5.727,5.4c-3.009,2.1-4.039,4.951-4.01,8.333.03,3.832.126,7.676.432,11.5.369,4.523-1.041,7.329-5.084,9.408L85.9,97.409a2.389,2.389,0,0,0-1.277,2.85c1.089,6.177-.93,10.962-6.181,14.514-3.212,2.171-6.151,4.737-9.312,6.986a12.077,12.077,0,0,1-7.665,2.6,10.434,10.434,0,0,1-5.907-2.241,5.835,5.835,0,0,1-1.846-3.589,10.438,10.438,0,0,0-1.026-2.932,13.972,13.972,0,0,1-2.215-5.959,14.876,14.876,0,0,0-2.452-6.509,17.122,17.122,0,0,1-2.784-9.873,9.116,9.116,0,0,1,.233-1.676,2.459,2.459,0,0,1,2.706-1.9,2.411,2.411,0,0,1,2.09,2.585c-.554,3.437.7,6.336,2.433,9.142a20.436,20.436,0,0,1,2.688,7.694,19.548,19.548,0,0,0,1.292,3.6c.617,1.647,1.211,3.3,1.879,4.925a2.378,2.378,0,0,0,.89,1.141,4.485,4.485,0,0,0,4.733.092c2.215-1.34,4.338-2.8,6.435-4.3,2-1.436,3.9-3.016,5.889-4.479a8.2,8.2,0,0,0,3.323-8.544c-.665-4.028.462-6.646,3.995-8.617.631-.369,1.292-.665,1.935-1,2.079-1.078,2.618-1.846,2.285-4.168a66.327,66.327,0,0,1-.369-12.952c.229-4.5,1.536-8.341,5.4-11.106,3.718-2.662,6.583-6.206,9.33-9.825,1.728-2.274,2.308-3.873,2.71-7.244-1.418.369-2.788.738-4.179,1.034a7.31,7.31,0,0,1-7.8-2.61,11.6,11.6,0,0,0-3.556-3c-3.223-1.654-4.752-4.357-5.483-7.7-.052-.236-.114-.473-.144-.713A9.52,9.52,0,0,0,80.414,27.3a10.675,10.675,0,0,1-3.57-10.847,11.668,11.668,0,0,0,.018-2.215,64.394,64.394,0,0,1-8.156.428,64.8,64.8,0,0,1-7.868-1.532,3.5,3.5,0,0,1-1.37,3.725,4.811,4.811,0,0,1-4.711.775,76.3,76.3,0,0,1-7.244-3.323A7.082,7.082,0,0,1,43.578,8.8c-.288-2.289-1.846-3.2-3.792-3.692a6.856,6.856,0,0,0-5.878,1.1,10.07,10.07,0,0,1-7.632,2.064,7.13,7.13,0,0,0-4.63,1.085A3.7,3.7,0,0,0,19.328,12.7a6.127,6.127,0,0,1-4.6,6.022,11.842,11.842,0,0,0-6.779,5.907A8.1,8.1,0,0,0,7.1,28.319,22.832,22.832,0,0,1,5.91,35.832c-2.053,5.76-.694,10.67,3.906,14.606a77.4,77.4,0,0,0,6.542,4.8,2.215,2.215,0,0,0,1.676.188,21.8,21.8,0,0,1,6.712-.713,8.106,8.106,0,0,0,4.039-.875A8.689,8.689,0,0,1,35.433,53c2.13.432,4.264.838,6.41,1.2A4.312,4.312,0,0,1,45.5,59.229a30.276,30.276,0,0,1-1.348,5.125,1.512,1.512,0,0,0,.558,2.038,19.494,19.494,0,0,1,2.828,2.636,2.429,2.429,0,0,1-.151,3.482,2.494,2.494,0,0,1-3.567-.31c-.827-.827-1.713-1.6-2.614-2.341-2.215-1.846-2.8-3.692-1.9-6.454.462-1.4.938-2.8,1.392-4.15-2.455-.546-4.722-1.108-7.015-1.529a3.231,3.231,0,0,0-2.049.262,14.26,14.26,0,0,1-7.927,1.746,35.167,35.167,0,0,0-4.634.561c-1.108.1-2.4.454-3.271.018C8.687,56.774,2.381,52.428.409,44A15.2,15.2,0,0,1,.889,35.4,23.357,23.357,0,0,0,2.218,28.06c.107-6.35,3.862-10.275,9.038-13.185a1.108,1.108,0,0,1,.336-.137c2.175-.48,3.057-1.817,3.039-4.032A5.35,5.35,0,0,1,16.917,6.72c2.765-2.289,5.859-3.766,9.57-3.323a7.114,7.114,0,0,0,4.582-1.159A51.846,51.846,0,0,1,35.964,0Z"
+                                                                transform="translate(-0.005)" fill="#caa45d" />
+                                                            <path id="Tracé_2876" data-name="Tracé 2876"
+                                                                d="M280.247,231.085A26.877,26.877,0,0,1,279,234.821c-.9,1.846-2.016,3.567-3.039,5.343-.764,1.322-1.521,2.651-2.293,3.969a35.317,35.317,0,0,1-2.584,4.235,7.069,7.069,0,0,1-7.366,2.584c-2.728-.491-4.589-3.323-4.235-6.6a16.615,16.615,0,0,1,1.034-4.582,31.283,31.283,0,0,0,1.986-7.7c.369-2.511,1.477-4.368,4.139-5.084a4.838,4.838,0,0,0,2-1.584c.8-.9,1.373-2.009,2.215-2.884a4.841,4.841,0,0,1,8.052.967,23.177,23.177,0,0,1,1.326,3.46Zm-5.741-5.42c-.521.738-1,1.329-1.377,1.975a8.669,8.669,0,0,1-4.874,4.12,1.745,1.745,0,0,0-.864,1.222,33.058,33.058,0,0,1-2.252,8.492,11.148,11.148,0,0,0-.683,3.164c-.055.462.122,1.325.34,1.377a2.917,2.917,0,0,0,1.846-.192,3.323,3.323,0,0,0,1.237-1.281c.62-1.03,1.108-2.141,1.7-3.2a23.563,23.563,0,0,1,2.263-3.832,15.666,15.666,0,0,0,3.493-7.72A6.029,6.029,0,0,0,274.506,225.665Z"
+                                                                transform="translate(-163.655 -139.269)"
+                                                                fill="#caa45d" />
+                                                            <path id="Tracé_2877" data-name="Tracé 2877"
+                                                                d="M129.936,215.723a2.415,2.415,0,0,1-2.415,2.485,2.463,2.463,0,0,1-2.452-2.474,2.544,2.544,0,0,1,2.381-2.444,2.466,2.466,0,0,1,2.485,2.433Z"
+                                                                transform="translate(-78.894 -134.54)" fill="#caa45d" />
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            PAR CARTE
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </li>
+                                        <li class="list-group-item-choose" data-bs-toggle="list" href="#list-bylist"
+                                            role="tab" aria-controls="list-bylist">
+                                            <svg id="Groupe_3188" data-name="Groupe 3188"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="41.426"
+                                                viewBox="0 0 41.426 57.041">
+                                                <defs>
+                                                    <clipPath id="clip-path">
+                                                        <rect id="Rectangle_391" data-name="Rectangle 391"
+                                                            width="41.426" height="57.041" fill="#caa45d" />
+                                                    </clipPath>
+                                                </defs>
+                                                <g id="Groupe_3187" data-name="Groupe 3187" transform="translate(0 0)"
+                                                    clip-path="url(#clip-path)">
+                                                    <path id="Tracé_2903" data-name="Tracé 2903"
+                                                        d="M33.138,10.664V14.13c1.089,0,2.041.058,2.984-.014,1.409-.107,2,.356,1.991,1.89q-.075,19.713,0,39.428c.005,1.464-.459,1.957-1.937,1.951q-15.417-.074-30.834,0c-1.6.009-2-.576-1.987-2.077.066-6.009.027-12.019.027-18.029,0-7.077.033-14.154-.026-21.23-.012-1.47.467-2.064,1.942-1.939.99.085,1.993.016,3.067.016V10.647H0V60.713H41.426V10.664Z"
+                                                        transform="translate(0 -3.672)" fill="#caa45d" />
+                                                    <path id="Tracé_2904" data-name="Tracé 2904"
+                                                        d="M16.061,13.613c6.4.026,12.808.053,19.209-.049a2.24,2.24,0,0,0,1.64-1.434c.168-2.726.078-5.468.078-8.374H30.413C29.488,1.044,28.151.01,25.723,0c-2.472-.01-3.754.978-4.793,3.775H14.394c0,2.867,0,5.5,0,8.133a1.533,1.533,0,0,0,1.666,1.7"
+                                                        transform="translate(-4.964 0)" fill="#caa45d" />
+                                                    <rect id="Rectangle_387" data-name="Rectangle 387" width="24.431"
+                                                        height="3.343" transform="translate(8.498 36.96)"
+                                                        fill="#caa45d" />
+                                                    <rect id="Rectangle_388" data-name="Rectangle 388" width="24.377"
+                                                        height="3.389" transform="translate(8.567 45.772)"
+                                                        fill="#caa45d" />
+                                                    <rect id="Rectangle_389" data-name="Rectangle 389" width="24.387"
+                                                        height="3.285" transform="translate(8.514 19.384)"
+                                                        fill="#caa45d" />
+                                                    <rect id="Rectangle_390" data-name="Rectangle 390" width="24.453"
+                                                        height="3.253" transform="translate(8.479 28.188)"
+                                                        fill="#caa45d" />
+                                                </g>
+                                            </svg>
+
+                                            PAR LISTE
+                                            <span><i class="fa-solid fa-caret-down"></i></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="list-bycarte" role="tabpanel"
+                                        aria-labelledby="list-home-list">
+                                        <div class="card p-4">
+                                            <img src="./img/MAPS.png" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="list-bylist" role="tabpanel"
+                                        aria-labelledby="list-profile-list">
+                                        <div class="card p-4">
+                                            <div class="input-group mb-4">
+                                                <input class="form-control border-end-0 border" type="search"
+                                                    id="example-search-input" placeholder="Lorem ipsum dolor sit amet">
+                                                <span class="input-group-append">
+                                                    <button class="btn btn-outline-secondary border-start-0  border "
+                                                        type="button">
+                                                        <i class="fa fa-search"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                            <div class="search-item">
+                                                <div class="item-content">
+                                                    <img src="./img/Image 43.png" alt="company" srcset="">
+                                                    <div class="item-info">
+                                                        <h4>National Federation of Property Developers</h4>
+                                                        <p>MAROC</p>
+                                                    </div>
+                                                    <img src="./img/Image 23.png" alt="flag" srcset="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Start Footer  Section -->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-element">
+                            <img src="./svg/logo.svg" alt="" srcset="" class="logo" />
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti quae voluptates veritatis excepturi dicta!
+                                Necessitatibus dicta cumque, quaerat nostrum asperiores
+                                accusantium est, quia, quibusdam ad aspernatur autem alias
+                                consequatur optio!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-element">
+                            <h3>CONTACTS</h3>
+                            <p>63739 ANFA 66 Casablanca, Maroc</p>
+                            <p>+212 0669 977 677</p>
+                            <p>+212 0669 977 677</p>
+                            <p>email@aure.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-element">
+                            <h3>NAVIGATION</h3>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Qui Sommes Nous</a></li>
+                                <li><a href="">Conférence des Présidents</a></li>
+                                <li><a href="">Actualités</a></li>
+                                <li><a href="">Contacter l’AURE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-element">
+                            <h3>NEWSLETTER</h3>
+                            <p class="mb-2">consectetur adipiscing elit.</p>
+                            <div class="newsletter-from">
+                                <input type="text" placeholder="Your email address" />
+                                <button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" viewBox="0 0 60 48">
+                                        <path id="ic_markunread_24px"
+                                            d="M56,4H8a5.992,5.992,0,0,0-5.97,6L2,46a6.018,6.018,0,0,0,6,6H56a6.018,6.018,0,0,0,6-6V10A6.018,6.018,0,0,0,56,4Zm0,12L32,31,8,16V10L32,25,56,10Z"
+                                            transform="translate(-2 -4)" fill="currentColor" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <p class="mt-2">consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="green"></div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/owl.carousel.min.js"></script>
+    <script>
+        $(".owl-slider-president").owlCarousel({
+            loop: false,
+            nav: true,
+            items: 4,
+            autoWidth: true,
+            margin: 30,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+        $(".owl-slider-comission").owlCarousel({
+            loop: true,
+            nav: true,
+            items: 1,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
