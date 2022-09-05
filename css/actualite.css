@@ -1,44 +1,183 @@
-.hero-section{
-    background: url("../img/actualite.png") center center no-repeat;
-    height: 25rem;
-    display: flex;
-    align-items: center;
-    background-size: cover;
+.hero-section {
+  background: url("../img/actualite.png") center center no-repeat;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  background-size: cover;
 }
 
-.hero-section .hero-title{
-    text-align: center;
-    color: white;
-    width: 40%;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid white;
+.hero-section .hero-title {
+  text-align: center;
+  color: white;
+  width: 20rem;
+  max-width: 49%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 
 .actualite-section {
-    min-height: 50rem;
-    padding: 3rem;
-    width: 100%;
+  min-height: 38rem;
+  padding: 3rem;
+  width: 100%;
 }
 
-.actualite-section .activité{
-    background: url("../img/event.png") center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    
+.actualite-section a {
+  text-decoration: none;
 }
 
-.actualite-section .gallery{
-    background: url("../img/GALERIE.png") center center no-repeat;
-    background-size: cover;
-    height: 50%;
-    margin-top: 4rem;
+.actualite-section .activité {
+  background: linear-gradient(266deg, #181818 0%, #fff0 100%),
+    url(../img/event.png) center center no-repeat;
+  background-size: cover;
+  height: 31rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.actualite-section .news{
-    background: url("../img/MEDIA.png") center center no-repeat;
-    background-size: cover;
-    height: 50%;
-    margin-bottom: 4rem;
+.actualite-section .gallery {
+  background: url("../img/GALERIE.png") center center no-repeat;
+  background-size: cover;
+  height: 15rem;
+  margin-top: 1rem;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actualite-section .news {
+  background: url("../img/MEDIA.png") center center no-repeat;
+  background-size: cover;
+  height: 50%;
+  height: 15rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.clock {
+  min-height: 10rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 2rem !important;
+}
+/* Cirlce */
+.card-info {
+  display: flex;
+  align-items: center;
+}
+.card-act {
+  min-height: 34rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-footer {
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.clock .days,
+.clock .hours,
+.clock .minutes {
+  width: 11rem;
+  height: 11rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  position: relative;
+  align-items: center;
+}
+
+.clock .days p,
+.clock .hours p,
+.clock .minutes p {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+
+.controlls {
+  position: absolute;
+  text-align: center;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-remain-time {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 52px;
+  color: #fff;
+}
+.e-c-base {
+  fill: none;
+  stroke: #b6b6b6;
+  stroke-width: 4px;
+}
+.e-c-progress {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.557);
+  stroke-width: 4px;
+  transition: stroke-dashoffset 0.7s;
+}
+.e-c-pointer {
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+#e-pointer {
+  transition: transform 0.7s;
+}
+/* End Circle */
+
+@media only screen and (max-width: 1200px) {
+  .actualite-section {
+    padding: 1rem;
+  }
+  .hero-section .hero-title {
+    width: 25rem;
+  }
+
+  .actualite-section .activité {
+    height: 25rem;
+    margin-bottom: 10px;
+  }
+
+  .actualite-section .gallery {
+    height: 15rem;
+    margin-top: 1rem;
+  }
+
+  .actualite-section .news {
+    height: 15rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .actualite-section .activité {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .hero-section .hero-title {
+    width: 25rem;
+  }
 }

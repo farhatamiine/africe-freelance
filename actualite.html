@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact Page</title>
+    <title>Actualite Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/nav.css" />
@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -74,33 +77,351 @@
         </div>
     </nav>
 
-  <!-- Start Hero Section -->
-  <section class="hero-section">
-    <div class="container">
-      <h2 class="hero-title">Actualités</h2>
-    </div>
-  </section>
-  <!-- End Hero Section -->
+    <!-- Start Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h2 class="hero-title">Actualités</h2>
+        </div>
+    </section>
+    <!-- End Hero Section -->
 
-  <section class="actualite-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                    <div class="activité">
-                        something
+    <section class="actualite-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div id="carouselExampleIndicators" class="carousel slide h-100" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class=" activité ">
+                                    <div class="clock">
+                                        <div class="days">
+                                            <div class="circle">
+                                                <svg width="150" viewBox="0 0 220 220"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g transform="translate(110,110)">
+                                                        <circle r="100" class="e-c-base" />
+                                                        <g transform="rotate(-90)">
+                                                            <circle r="100" class="e-c-progress" />
+                                                            <g id="e-pointer">
+                                                                <circle cx="100" cy="0" r="8" class="e-c-pointer" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="controlls">
+                                                <div class="display-remain-time">2</div>
+                                            </div>
+                                            <p>Days</p>
+                                        </div>
+                                        <div class="hours">
+                                            <div class="circle"> <svg width="150" viewBox="0 0 220 220"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g transform="translate(110,110)">
+                                                        <circle r="100" class="e-c-base" />
+                                                        <g transform="rotate(-90)">
+                                                            <circle r="100" class="e-c-progress" />
+                                                            <g id="e-pointer">
+                                                                <circle cx="100" cy="0" r="8" class="e-c-pointer" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="controlls">
+                                                <div class="display-remain-time">6</div>
+                                            </div>
+                                            <p>Hours</p>
+                                        </div>
+                                        <div class="minutes">
+                                            <div class="circle">
+                                                <svg width="150" viewBox="0 0 220 220"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g transform="translate(110,110)">
+                                                        <circle r="100" class="e-c-base" />
+                                                        <g transform="rotate(-90)">
+                                                            <circle r="100" class="e-c-progress" />
+                                                            <g id="e-pointer">
+                                                                <circle cx="100" cy="0" r="8" class="e-c-pointer" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="controlls">
+                                                <div class="display-remain-time">45</div>
+                                            </div>
+                                            <p>Minutes</p>
+                                        </div>
+                                    </div>
+                                    <h1 class="text-white">Notre Prochaine Activité</h1>
+                                    <div class="d-flex w-75 justify-content-evenly">
+                                        <div class="icon-info">
+                                            <p class="text-white fs-4 d-flex align-items-center mb-0">
+                                                <i class="fa-solid fa-location-dot fa-fw"></i>
+                                                01,09, 2022
+                                            </p>
+                                        </div>
+                                        <div class="icon-info">
+                                            <p class="text-white fs-4 d-flex align-items-center mb-0">
+                                                <i class="fa-solid me-3 fa-calendar-days fa-fw"></i>
+                                                01,09, 2022
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class=" activité">
+                                    <div class="clock">
+                                        <div class="days">
+
+                                        </div>
+                                        <div class="hours">
+
+                                        </div>
+                                        <div class="minutes">
+
+                                        </div>
+                                    </div>
+                                    <h2>Notre Prochaine Activité</h2>
+                                    <div class="d-flex">
+                                        <div class="icon-info">
+                                            <p>Rabat</p>
+                                        </div>
+                                        <div class="icon-info">
+                                            <p class="text-white fs-4">
+                                                <i class="fa-solid fa-calendar-days fa-1x"></i>
+                                                01,09, 2022
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class=" activité">
+                                    <div class="clock">
+                                        <div class="days">
+
+                                        </div>
+                                        <div class="hours">
+
+                                        </div>
+                                        <div class="minutes">
+
+                                        </div>
+                                    </div>
+                                    <h2>Notre Prochaine Activité</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-            </div>
-            <div class="col-md-4">
-                <div class="news">
-                    Espace media
                 </div>
-                <div class="gallery">
-                    Galerie
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <a href="">
+                        <div class="news">
+                            <h2>Espace media</h2>
+                            <img src="./svg/news.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="gallery">
+                            <h2>Galerie</h2>
+                            <img src="./img/gallery.png" alt="">
+
+                        </div>
+                    </a>
+
                 </div>
             </div>
         </div>
-    </div>
-  </section>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3 card-act">
+                        <img src="img/image@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ACTUALITÉ 1</h5>
+                            <p class="card-text">
+                                Stet clita kasd gubergren, no sea
+                                takimata sanctus sed diam voluptua. Bresaola sirloin
+                                meatball, strip steak jowl andouille tri-tip beef ribs Kevin
+                                pancetta landjaeger turkey chuck ham cupim </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="" class="" style="color: #caa45d;">Lire La suite </a>
+                                <img src="./svg/arrow-beige.svg" alt="" class="" width="30">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <img src="./svg/pin_drop.svg" class="me-2" alt="">
+                                ABIDJAN
+                            </div>
+                            <div class="card-info">
+                                <img src="./svg/calendar.svg" class="me-2" alt="">
+                                23, JUILLET, 2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3 card-act">
+                        <img src="img/image@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ACTUALITÉ 1</h5>
+                            <p class="card-text">
+                                Stet clita kasd gubergren, no sea
+                                takimata sanctus sed diam voluptua. Bresaola sirloin
+                                meatball, strip steak jowl andouille tri-tip beef ribs Kevin
+                                pancetta landjaeger turkey chuck ham cupim </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="" class="" style="color: #caa45d;">Lire La suite </a>
+                                <img src="./svg/arrow-beige.svg" alt="" class="" width="30">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <img src="./svg/pin_drop.svg" class="me-2" alt="">
+                                ABIDJAN
+                            </div>
+                            <div class="card-info">
+                                <img src="./svg/calendar.svg" class="me-2" alt="">
+                                23, JUILLET, 2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3 card-act">
+                        <img src="img/image@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ACTUALITÉ 1</h5>
+                            <p class="card-text">
+                                Stet clita kasd gubergren, no sea
+                                takimata sanctus sed diam voluptua. Bresaola sirloin
+                                meatball, strip steak jowl andouille tri-tip beef ribs Kevin
+                                pancetta landjaeger turkey chuck ham cupim </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="" class="" style="color: #caa45d;">Lire La suite </a>
+                                <img src="./svg/arrow-beige.svg" alt="" class="" width="30">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <img src="./svg/pin_drop.svg" class="me-2" alt="">
+                                ABIDJAN
+                            </div>
+                            <div class="card-info">
+                                <img src="./svg/calendar.svg" class="me-2" alt="">
+                                23, JUILLET, 2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3 card-act">
+                        <img src="img/image@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ACTUALITÉ 1</h5>
+                            <p class="card-text">
+                                Stet clita kasd gubergren, no sea
+                                takimata sanctus sed diam voluptua. Bresaola sirloin
+                                meatball, strip steak jowl andouille tri-tip beef ribs Kevin
+                                pancetta landjaeger turkey chuck ham cupim </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="" class="" style="color: #caa45d;">Lire La suite </a>
+                                <img src="./svg/arrow-beige.svg" alt="" class="" width="30">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <img src="./svg/pin_drop.svg" class="me-2" alt="">
+                                ABIDJAN
+                            </div>
+                            <div class="card-info">
+                                <img src="./svg/calendar.svg" class="me-2" alt="">
+                                23, JUILLET, 2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3 card-act">
+                        <img src="img/image@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ACTUALITÉ 1</h5>
+                            <p class="card-text">
+                                Stet clita kasd gubergren, no sea
+                                takimata sanctus sed diam voluptua. Bresaola sirloin
+                                meatball, strip steak jowl andouille tri-tip beef ribs Kevin
+                                pancetta landjaeger turkey chuck ham cupim </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="" class="" style="color: #caa45d;">Lire La suite </a>
+                                <img src="./svg/arrow-beige.svg" alt="" class="" width="30">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <img src="./svg/pin_drop.svg" class="me-2" alt="">
+                                ABIDJAN
+                            </div>
+                            <div class="card-info">
+                                <img src="./svg/calendar.svg" class="me-2" alt="">
+                                23, JUILLET, 2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-3 card-act">
+                        <img src="img/image@2x.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ACTUALITÉ 1</h5>
+                            <p class="card-text">
+                                Stet clita kasd gubergren, no sea
+                                takimata sanctus sed diam voluptua. Bresaola sirloin
+                                meatball, strip steak jowl andouille tri-tip beef ribs Kevin
+                                pancetta landjaeger turkey chuck ham cupim </p>
+                            <div class="d-flex justify-content-between">
+                                <a href="" class="" style="color: #caa45d;">Lire La suite </a>
+                                <img src="./svg/arrow-beige.svg" alt="" class="" width="30">
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-info">
+                                <img src="./svg/pin_drop.svg" class="me-2" alt="">
+                                ABIDJAN
+                            </div>
+                            <div class="card-info">
+                                <img src="./svg/calendar.svg" class="me-2" alt="">
+                                23, JUILLET, 2022
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -175,11 +496,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="scripts/owl.carousel.min.js"></script>
     <script>
-        $(".owl-carousel-activite").owlCarousel({
+        $(".owl-carousel-clock").owlCarousel({
             loop: false,
             nav: true,
             items: 1,
-            autoWidth:true,
+            margin: 30,
         });
     </script>
 </body>
