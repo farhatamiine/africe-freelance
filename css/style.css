@@ -23,7 +23,18 @@
   margin-top: 5px;
   height: 14.9rem;
   border-bottom: 10px solid #008340;
-  background: url("../img/image@2x.png") center center no-repeat;
+  background: url("../img/SLIDER2.png") center center no-repeat;
+  background-size: cover;
+}
+
+
+.gradient{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2rem 0 0 1.5rem;
+  background: linear-gradient(180deg, #aa9b7abd, #c4080800);
 }
 
 .content {
