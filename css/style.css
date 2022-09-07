@@ -37,6 +37,13 @@
   background: linear-gradient(180deg, #aa9b7abd, #c4080800);
 }
 
+.gradient h1{
+  font-size: 2rem;
+  font-family: 'nexa_boldregular';
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
 .content {
   width: auto;
 }
