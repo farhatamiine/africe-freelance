@@ -146,9 +146,76 @@
 }
 /* End Circle */
 
+.newsletter {
+  height: 30rem;
+  background: url("../img/BACKGROUND5.png") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 5rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter h1 {
+  font-size: 4rem;
+}
+
+.newsletter h2 {
+  font-size: 3rem;
+  font-weight: 100 !important;
+  font-family: sans-serif;
+}
+
+.newsletter .icon {
+  position: absolute;
+  background-color: #c3a566;
+  top: -3rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  flex-direction: column;
+  height: 8rem;
+}
+.card-info {
+  font-size: 13px;
+}
+
+.card-info img {
+  width: 20%;
+}
+.newsletter .input {
+  border: 1px solid #fff;
+  background-color: transparent;
+  width: 35rem;
+  height: 6rem;
+  padding-left: 2rem;
+  font-size: 30px;
+  color: white;
+  outline: none;
+}
+
+.newsletter .input::placeholder {
+  color: white !important;
+}
+
+.newsletter .form button {
+  background-color: #00371c;
+  width: 6rem;
+  border: 0;
+}
+
+.newsletter .icon svg {
+  width: 5rem;
+}
+
 @media only screen and (max-width: 1200px) {
   .actualite-section {
-    padding: 1rem;
+    padding: 10px 0.1rem;
   }
   .hero-section .hero-title {
     width: 25rem;
@@ -167,6 +234,67 @@
   .actualite-section .news {
     height: 15rem;
     margin-bottom: 1rem;
+  }
+
+  .newsletter {
+    height: 30rem;
+    background: url("../img/BACKGROUND5.png") center center no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 5rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter h1 {
+    font-size: 2rem;
+  }
+
+  .newsletter h2 {
+    font-size: 1.5rem;
+    font-weight: 100 !important;
+    font-family: sans-serif;
+  }
+
+  .newsletter .icon {
+    position: absolute;
+    background-color: #c3a566;
+    top: -3rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    height: 8rem;
+  }
+
+  .newsletter .input {
+    border: 1px solid #fff;
+    background-color: transparent;
+    width: auto;
+    height: 5rem;
+    padding-left: 2rem;
+    font-size: 15px;
+    color: white;
+    outline: none;
+  }
+
+  .newsletter .input::placeholder {
+    color: white !important;
+  }
+
+  .newsletter .form button {
+    background-color: #00371c;
+    width: auto;
+    border: 0;
+  }
+
+  .newsletter .icon svg {
+    width: 5rem;
   }
 }
 

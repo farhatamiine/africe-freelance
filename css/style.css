@@ -27,7 +27,7 @@
 }
 
 .content {
-  width: 40rem;
+  width: auto;
 }
 
 .content p {
@@ -86,6 +86,7 @@
 .stats {
   text-align: center;
   padding: 10rem 0;
+  background: url("../img/BACKGROUND1.png");
 }
 
 .stats h2 {
@@ -319,6 +320,27 @@
   #collapseWidthExample p {
     font-size: 20px;
     width: auto;
+  }
+
+  .act {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tous-act a {
+    font-size: 15px !important;
+  }
+  .line {
+    text-align: center;
+    width: 100% !important;
+  }
+
+  .card-info {
+    font-size: 12px;
+  }
+  .card-info img {
+    width: 15%;
   }
 }
 
