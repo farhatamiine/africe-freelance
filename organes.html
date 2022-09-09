@@ -99,21 +99,39 @@
                         </a>
                         <a class="list-group-item list-group-item-action active" id="list-conference-president-list"
                             data-bs-toggle="list" href="#list-conference-president" role="tab"
-                            aria-controls="list-home">Conférence Des Président</a>
+                            aria-controls="list-home">
+                            <i class="icon-chev fas fa-chevron-right fa-1x"></i>
+                            <i class="icon-minus fas fa-minus fa-1x"></i>
+                            Conférence Des Président
+                        </a>
                         <a class="list-group-item list-group-item-action" id="list-president-list" data-bs-toggle="list"
-                            href="#list-president" role="tab" aria-controls="list-profile">Le Président</a>
+                            href="#list-president" role="tab" aria-controls="list-profile">
+                            <i class="icon-chev fas fa-chevron-right fa-1x"></i>
+                            <i class="icon-minus fas fa-minus fa-1x"></i>
+                            Le Président</a>
                         <a class="list-group-item list-group-item-action" id="list-secretariat-general-list"
                             data-bs-toggle="list" href="#list-secretariat-general" role="tab"
-                            aria-controls="list-messages">Secrétariat Général</a>
+                            aria-controls="list-messages">
+                            <i class="icon-chev fas fa-chevron-right fa-1x"></i>
+                            <i class="icon-minus fas fa-minus fa-1x"></i>
+                            Secrétariat Général</a>
                         <a class="list-group-item list-group-item-action" id="list-tresorerie-generale-list"
                             data-bs-toggle="list" href="#list-tresorerie-generale" role="tab"
-                            aria-controls="list-messages">Trésorerie Générale</a>
+                            aria-controls="list-messages">
+                            <i class="icon-chev fas fa-chevron-right fa-1x"></i>
+                            <i class="icon-minus fas fa-minus fa-1x"></i>
+                            Trésorerie Générale</a>
                         <a class="list-group-item list-group-item-action " id="list-commissions-list"
                             data-bs-toggle="list" href="#list-commissions" role="tab"
-                            aria-controls="list-commissions-list">Commissions</a>
+                            aria-controls="list-commissions-list">
+                            <i class="icon-chev fas fa-chevron-right fa-1x"></i>
+                            <i class="icon-minus fas fa-minus fa-1x"></i>
+                            Commissions</a>
                         <a class="list-group-item list-group-item-action " id="list-adherents-list"
-                            data-bs-toggle="list" href="#list-adherents" role="tab"
-                            aria-controls="list-adherents">Adhérents</a>
+                            data-bs-toggle="list" href="#list-adherents" role="tab" aria-controls="list-adherents">
+                            <i class="icon-chev fas fa-chevron-right fa-1x"></i>
+                            <i class="icon-minus fas fa-minus fa-1x"></i>
+                            Adhérents</a>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-12 section">
@@ -864,6 +882,9 @@
             nav: true,
             items: 4,
             autoWidth: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
             margin: 30,
             responsive: {
                 0: {
@@ -882,6 +903,9 @@
             nav: true,
             items: 1,
             autoWidth: true,
+            autoplay: true,
+            autoplayTimeout: 6000,
+            autoplayHoverPause: true,
             margin: 10,
             responsive: {
                 0: {
@@ -895,6 +919,45 @@
                 }
             }
         });
+
+        /* if ($(".list-group-item-action").hasClass("active")) {
+            console.log($(this));
+            $(".list-group-item-action.active").find(".icon-che").addClass("d-inline-block")
+            $(".list-group-item-action.active").find(".icon-minus").addClass("d-none")
+        } else {
+            $(".list-group-item-action").find(".icon-che").removeClass("d-inline-block")
+            $(".list-group-item-action").find(".icon-minus").removeClass("d-none")
+            $(".list-group-item-action").find(".icon-che").removeClass("d-none")
+            $(".list-group-item-action").find(".icon-minus").removeClass("d-inline-block")
+            $(".list-group-item-action").find(".icon-che").addClass("d-none")
+            $(".list-group-item-action").find(".icon-minus").addClass("d-inline-block")
+        } */
+
+
+
+        $(".list-group-item-action").on("click", (e) => {
+            if ($(e.target).hasClass("active")) {
+                $(e.target).find(".icon-chev").removeClass('d-inline-block');
+                $(e.target).find(".icon-chev").removeClass('d-none');
+                $(e.target).find(".icon-minus").removeClass('d-inline-block');
+                $(e.target).find(".icon-minus").removeClass('d-none');
+
+                $(e.target).find(".icon-chev").addClass('d-inline-block');
+                $(e.target).children('.icon-minus').addClass('d-none');
+            } else {
+                $(e.target).find(".icon-chev").removeClass('d-inline-block');
+                $(e.target).find(".icon-chev").removeClass('d-none');
+                $(e.target).find(".icon-minus").removeClass('d-inline-block');
+                $(e.target).find(".icon-minus").removeClass('d-none');
+
+                $(e.target).find(".icon-chev").addClass('d-none');
+                $(e.target).children('.icon-minus').addClass('d-inline-block');
+            }
+        })
+
+
+
+
     </script>
 </body>
 

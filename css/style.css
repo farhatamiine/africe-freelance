@@ -2,13 +2,14 @@
   background: url("../img/image@2x.png") center center no-repeat;
   background-size: cover;
   color: white;
-  height: 40rem;
+  height: 500pt;
   padding: 6rem 30px;
   border-bottom: 10px solid #008340;
 }
 
 .hero-section {
   margin-top: 30px;
+  height: 500pt;
 }
 
 #carouselHeroIndicators .carousel-item img {
@@ -21,14 +22,13 @@
 
 .hero-second {
   margin-top: 5px;
-  height: 14.9rem;
+  height: 199.31984933301pt;
   border-bottom: 10px solid #008340;
   background: url("../img/SLIDER2.png") center center no-repeat;
   background-size: cover;
 }
 
-
-.gradient{
+.gradient {
   top: 0;
   left: 0;
   bottom: 0;
@@ -37,9 +37,9 @@
   background: linear-gradient(180deg, #aa9b7abd, #c4080800);
 }
 
-.gradient h1{
+.gradient h1 {
   font-size: 2rem;
-  font-family: 'nexa_boldregular';
+  font-family: "nexa_boldregular";
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
@@ -77,6 +77,8 @@
 
 .about .about-header .title-container h1 {
   margin-bottom: 0;
+  font-family: "nexa_lightregular", sans-serif !important;
+  color: #193b23;
 }
 
 .about .about-header .title-container span {
@@ -91,6 +93,8 @@
   font-size: 25px;
   font-weight: lighter;
   margin: 15px 0;
+  font-family: "nexa_lightregular", sans-serif !important;
+  color: #626262;
 }
 
 .about .about-content p:first-child {
@@ -272,6 +276,8 @@
 
 .partenaire .logo {
   width: 100%;
+  filter: grayscale(100%) brightness(60%) contrast(10000000%);
+  opacity: 0.3;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -280,9 +286,14 @@
   background-color: rgb(245, 245, 245);
 }
 
+.partenaire .logo:hover {
+  filter: unset;
+  opacity: 1;
+}
+
 .partenaire .logo img {
   object-fit: contain;
-  width: 60% !important;
+  width: 49% !important;
 }
 
 .partenaire a {
@@ -410,4 +421,8 @@
     right: -41px;
     width: 22rem;
   }
+}
+
+.counter:not(.is-visible) {
+  visibility: hidden;
 }
