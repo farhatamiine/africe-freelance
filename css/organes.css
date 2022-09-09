@@ -2,7 +2,12 @@
   background-color: #1f3b09;
 }
 
-.search-item {
+.list-group-item.list-group-item-action.active > .icon-chev{
+  display: none;
+}
+
+.list-group-item.list-group-item-action:not(.active) > .icon-minus{
+  display: none;
 }
 
 .item-content {
