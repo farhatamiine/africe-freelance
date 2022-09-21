@@ -2,11 +2,11 @@
   background-color: #1f3b09;
 }
 
-.list-group-item.list-group-item-action.active > .icon-chev{
+.list-group-item.list-group-item-action.active > .icon-chev {
   display: none;
 }
 
-.list-group-item.list-group-item-action:not(.active) > .icon-minus{
+.list-group-item.list-group-item-action:not(.active) > .icon-minus {
   display: none;
 }
 
@@ -277,8 +277,8 @@
 .person {
   position: absolute;
   top: 1rem;
-  right: -12px;
-  width: 92%;
+  right: 18px;
+  width: 74%;
 }
 .sign {
   margin-left: 5rem;

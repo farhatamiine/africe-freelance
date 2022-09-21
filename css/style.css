@@ -97,6 +97,18 @@
   color: #626262;
 }
 
+.about .about-content ul {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 15px 0;
+  font-family: "nexa_lightregular", sans-serif !important;
+  color: #626262;
+}
+.about .about-content ul li {
+  list-style: square;
+  margin: 10px 0;
+}
+
 .about .about-content p:first-child {
   margin-bottom: 20px;
 }
@@ -196,6 +208,14 @@
 .adherents,
 .actualite {
   padding: 20px;
+}
+
+.adherents p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 15px 0;
+  font-family: "nexa_lightregular", sans-serif !important;
+  color: #626262;
 }
 
 .actualite .card-info {

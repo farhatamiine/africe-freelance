@@ -16,6 +16,14 @@
   border: 2px solid white;
 }
 
+.aure-mission {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.aure-mission li {
+  list-style: square;
+  margin: 10px 0;
+}
 .line {
   width: 7rem;
   background-color: #caa45d;
@@ -130,7 +138,7 @@
 
 .list-mission li {
   font-size: 1.3rem;
-  color: #838383;
+
   margin-bottom: 3px;
 }
 
