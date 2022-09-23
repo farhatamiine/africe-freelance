@@ -1,0 +1,26 @@
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 60rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+.profile-modal{
+    display: flex;
+}
+
+.profile-modal img{
+    width: 140px;
+    height: 100%;
+    margin-right: 25px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.city-info{
+    vertical-align: top;
+}
+.profile-modal p{
+    margin: 0;
+    font-size: 15px;
+}

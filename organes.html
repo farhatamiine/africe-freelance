@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/organes.css" />
+    <link rel="stylesheet" href="css/modal.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
@@ -176,29 +177,34 @@
                                                         style="bottom: -10px;">
                                                         <img src="./img/JOIN.png" class=""
                                                             style="width:25px;filter:contrast(0) sepia(1);" alt="">
-                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
-                                                            Profile</p>
+                                                        <button class="mb-0 bg-transparent ms-2 border-0 text-white"
+                                                            data-bs-toggle="modal" data-bs-target="#modalTOUFIK"
+                                                            style="font-size:17px;">Voir
+                                                            Profile</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="card" style="width: 18rem; height:28rem;">
                                             <div class="bg-white h-50">
                                             </div>
                                             <div class="bg-green body position-relative h-100">
-                                                <img src="./img/C.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                <img src="./img/imane.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
                                                     class="position-absolute">
                                                 <div style="margin-top: 5rem;"
                                                     class="d-flex flex-column align-items-center text-center">
-                                                    <h4 style="color: #caa35c;">ERIC MAGBO</h4>
+                                                    <h4 style="color: #caa35c;">Imane NOUR</h4>
                                                     <p class="text-white  text-center">Etiam vel orci nis</p>
                                                     <img src="./img/Image 27.png" style="width:22%;" alt="">
                                                     <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
                                                         style="bottom: -10px;">
                                                         <img src="./img/JOIN.png" class=""
                                                             style="width:25px;filter:contrast(0) sepia(1);" alt="">
-                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
-                                                            Profile</p>
+                                                        <button data-bs-toggle="modal" data-bs-target="#modalImane"
+                                                            class="mb-0 ms-2 text-white bg-transparent border-0"
+                                                            style="font-size:17px;">Voir
+                                                            Profile</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -207,19 +213,21 @@
                                             <div class="bg-white h-50">
                                             </div>
                                             <div class="bg-green body position-relative h-100">
-                                                <img src="./img/B.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
+                                                <img src="./img/Siriki.png" style="width:45%;top: -5rem ;left: 25%;" alt=""
                                                     class="position-absolute">
                                                 <div style="margin-top: 5rem;"
                                                     class="d-flex flex-column align-items-center text-center">
-                                                    <h4 style="color: #caa35c;">ISSA TAGOUANI</h4>
+                                                    <h4 style="color: #caa35c;">Siriki Sangaré</h4>
                                                     <p class="text-white  text-center">Etiam vel orci nis</p>
                                                     <img src="./img/Image 28.png" style="width:22%;" alt="">
                                                     <div class="d-flex align-items-center position-absolute ps-2 w-100 h-25"
                                                         style="bottom: -10px;">
                                                         <img src="./img/JOIN.png" class=""
                                                             style="width:25px;filter:contrast(0) sepia(1);" alt="">
-                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
-                                                            Profile</p>
+                                                        <button data-bs-toggle="modal" data-bs-target="#modalSiriki"
+                                                            class="mb-0 ms-2 text-white bg-transparent border-0"
+                                                            style="font-size:17px;">Voir
+                                                            Profile</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -232,15 +240,17 @@
                                                     class="position-absolute">
                                                 <div style="margin-top: 5rem;"
                                                     class="d-flex flex-column align-items-center text-center">
-                                                    <h4 style="color: #caa35c;">FAL ALAN KONY</h4>
+                                                    <h4 style="color: #caa35c;">Babacar Souleymane Faye</h4>
                                                     <p class="text-white  text-center">Etiam vel orci nis</p>
                                                     <img src="./img/Image 27.png" style="width:22%;" alt="">
                                                     <div class="d-flex align-items-center position-absolute  ps-2 w-100 h-25"
                                                         style="bottom: -10px;">
                                                         <img src="./img/JOIN.png" class=""
                                                             style="width:25px;filter:contrast(0) sepia(1);" alt="">
-                                                        <p class="mb-0 ms-2 text-white" style="font-size:17px;">Voir
-                                                            Profile</p>
+                                                            <button data-bs-toggle="modal" data-bs-target="#modalBabacar"
+                                                            class="mb-0 ms-2 text-white bg-transparent border-0"
+                                                            style="font-size:17px;">Voir
+                                                            Profile</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -800,7 +810,279 @@
         </div>
         </div>
     </section>
-
+    <div class="modal fade" id="modalTOUFIK" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #1f3b09;color: #a38e4f;">
+                    <h5 class="modal-title" id="exampleModalLabel"><span class="fa fa-circle me-2"
+                            style="color: #caa45d;"></span> Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-between">
+                        <div class="profile-modal">
+                            <img src="./img/D.png" alt="">
+                            <div class="profile-info">
+                                <h4>TOUFIK TOUFIK</h4>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor </p>
+                            </div>
+                        </div>
+                        <div class="city-info">
+                            <img src="./img/Image 43.png" alt="">
+                            <img src="./img/Image 27.png" alt="">
+                        </div>
+                    </div>
+                    <h5 class="mt-3">Lorem Ipsum</h5>
+                    <span class="line mb-2"></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sapiente maiores cupiditate hic
+                        fuga quos enim, laudantium accusantium labore? Debitis doloremque ex deserunt ut dolorem sint
+                        repellat eum, suscipit quam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sapiente maiores cupiditate hic
+                        fuga quos enim, laudantium accusantium labore? Debitis doloremque ex deserunt ut dolorem sint
+                        repellat eum, suscipit quam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalImane" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #1f3b09;color: #a38e4f;">
+                    <h5 class="modal-title" id="exampleModalLabel"><span class="fa fa-circle me-2"
+                            style="color: #caa45d;"></span> Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-between">
+                        <div class="profile-modal">
+                            <img src="./img/imane.png" alt="">
+                            <div class="profile-info">
+                                <h4>Imane NOUR,</h4>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor </p>
+                            </div>
+                        </div>
+                        <div class="city-info">
+                            <img src="./img/Image 43.png" alt="">
+                            <img src="./img/Image 27.png" alt="">
+                        </div>
+                    </div>
+                    <h5 class="mt-3">Lorem Ipsum</h5>
+                    <span class="line mb-2"></span>
+                    <p>Je m&#39;appelle Imane NOUR, femme mariée et mère de deux filles, ayant
+                        fait ses études secondaires au Maroc jusqu’à l’obtention de mon Baccalauréat,
+                        suivies de multiples formations dans le domaine du Marketing et du
+                        Management de façon autodidacte afin de comprendre le marché économique
+                        national et la manière rationnelle de répondre aux sollicitudes des clients. Je suis
+                        aussi membre de l’association «Ensemble, c’est aussi avec les femmes» et la
+                        représentante du CMEADD (Centre Marocain des Etudes Africaines et du
+                        Développement Durable en Afrique).</p>
+                    <p>Présidente de la société Imane Services spécialisée dans le domaine de
+                        l’immobilier et des prestations des services, une SARL située au cœur de Pointe-
+                        Noire au Congo-Brazzaville, je suis aussi la propriétaire du plus grand SPA dans
+                        ce pays et du restaurant y afférent appelés «Il était une fois».</p>
+                    <p>Ayant débuté ma carrière à bas âge, j’ai pu cumuler, en l’espace de 16 ans
+                        de carrière professionnelle, une expérience me permettant de me positionner
+                        dans le marché immobilier congolais en toute aisance en garantissant à mes
+                        clients le résultat escompté de leur part.</p>
+                    <p>Un travail nécessitant une abnégation quotidienne et une quête des
+                        nouveautés des méthodes d’auto-développement aussi bien de mes entreprises
+                        que de ma personnalité.</p>
+                    <p>Mariée et installée à Pointe-Noire depuis l’âge de 18 ans, mon sens de
+                        familiarité et d’adaptation dans une société totalement différente de celle
+                        marocaine, de laquelle je suis native, m’a permis de dissoudre toutes les
+                        barrières pouvant être dressées devant une expatriée nouvellement titulaire de
+                        son seul diplôme de baccalauréat, jeune et se retrouvant devant une dichotomie
+                        culturelle importante créant un champ propice pour se démotiver et rester à la
+                        maison.</p>
+                    <p>Ainsi, j’ai tenu mon destin en main et je me suis lancée dans le domaine
+                        de l’immobilier d’abord en intégrant ce secteur en tant que stagiaire dans une
+                        Agence immobilière. Ensuite, rapidement en créant ma propre entreprise, quand
+                        j’ai constaté que ce secteur est prometteur et enfin en assurant le développement
+                        de cette dernière dans l’arène économique national congolais en y rajoutant le
+                        domaine de la construction et la rénovation des maisons, des immeubles et des
+                        bureaux, parallèlement au SPA et au Restaurant «Il était une fois».</p>
+                    <p>Actuellement, je suis gestionnaire de plus d’une centaine de maisons et
+                        appartements au Congo-Brazzaville et j’ai déjà à mon actif la construction et la
+                        rénovation de plusieurs biens immobiliers dont certains relevant même du
+                        secteur public. Incessamment, la Société Imane Services se lancera dans le
+                        marché immobilier africain.</p>
+                    <p>La clef de voûte de la réussite de mes entreprises étant la confiance
+                        cumulée auprès de mes clients et le respect de mes concurrents. Deux atouts qui
+                        ne peuvent être obtenus qu’en multipliant les expériences et soulevant les
+                        challenges dans lesquels nous berce le marché du travail. Une bonne relation
+                        avec le personnel est d’une importance cruciale pour le développement de mon
+                        entreprise. Preuve à l’appui : plusieurs employés m’accompagnent depuis
+                        l’ouverture de mes entreprises et y ont progressé pour obtenir d’importants
+                        postes de responsabilités dans lesdites personnes morales.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalBabacar" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #1f3b09;color: #a38e4f;">
+                    <h5 class="modal-title" id="exampleModalLabel"><span class="fa fa-circle me-2"
+                            style="color: #caa45d;"></span> Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-between">
+                        <div class="profile-modal">
+                            <img src="./img/D.png" alt="">
+                            <div class="profile-info">
+                                <h4>Babacar Souleymane Faye</h4>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor </p>
+                            </div>
+                        </div>
+                        <div class="city-info">
+                            <img src="./img/Image 43.png" alt="">
+                            <img src="./img/Image 27.png" alt="">
+                        </div>
+                    </div>
+                    <h5 class="mt-3">Lorem Ipsum</h5>
+                    <span class="line mb-2"></span>
+                    <p>Babacar Souleymane Faye président des promoteurs immobiliers privés du Sénégal (RPPIS) juriste de
+                        formation diplômé en gestion d’administration et des entreprises.</p>
+                    <p>Administrateur Général de SATUR SA avec son projet phare de villas écologiques « DAKAR ECO CITY »
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalSiriki" data-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #1f3b09;color: #a38e4f;">
+                    <h5 class="modal-title" id="exampleModalLabel"><span class="fa fa-circle me-2"
+                            style="color: #caa45d;"></span> Profile</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-between">
+                        <div class="profile-modal">
+                            <img src="./img/Siriki.png" alt="">
+                            <div class="profile-info">
+                                <h4>Siriki Sangaré</h4>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor </p>
+                                <p>Lorem ipsum dolor </p>
+                            </div>
+                        </div>
+                        <div class="city-info">
+                            <img src="./img/Image 43.png" alt="">
+                            <img src="./img/Image 27.png" alt="">
+                        </div>
+                    </div>
+                    <h5 class="mt-3">Présentation du Parcours de Siriki Sangaré</h5>
+                    <span class="line mb-2"></span>
+                    <p>Connaissez-vous Siriki Sangaré ? Pas sûr... Pourtant, cet Ivoirien incarne une
+                        réussite qui devrait nous inspirer. Né à Katiola (Côte d’Ivoire), polytechnicien,
+                        il fut Directeur d’exploitation Sogimex (achat et export de 120.000 tonnes de
+                        café cacao),directeur technico-commercial Socomelec ivoire, Directeur Général
+                        de E-Négoce, , il est aujourd&#39;hui, le patron - à succès –, Pdg d’Opes Holding
+                        S.A. Entreprise majeure engagée dans le vaste programme Présidentiel des
+                        logements sociaux, économiques et de standing entrepris par l’Etat ivoirien. Ce
+                        technocrate et scientifique émérite est désormais une des voix qui comptent en
+                        Côte d’Ivoire voire en Afrique. Avec le Premier prix d’Excellence 2016 de
+                        l’immobilier décerné par le Président de la République Alassane Ouattara, Prix
+                        de l’innovation dans l’immobilier 2014 obtenu à Dubaï, Prix du lauréat du
+                        Conseil international des Managers Africains 2016,(Cima) obtenu à Paris, Siriki
+                        Sangaré est un Pdg qui tout misé sur l’entrepreneuriat , l’immobilier et le
+                        Financement . Et ça remue. A commencer par notre bonne conscience. Car
+                        Siriki Sangaré , malgré ses montagnes de diplômes, qui commence avec le
+                        Baccalauréat Série E au Lycée Technique de Bouaké en passant par les années
+                        préparatoires en Mathématiques à l’Université d’Abidjan et le cycle ingénieur en
+                        Génie électronique à l’INPHB sans compter ses hauts postes de responsabilité
+                        dans de grosses firmes mondiales de Génie électrique et électronique, a dû
+                        s’engager dans l’initiative privée pour aider cette Afrique qui doit bouger .
+                        Et cela, à travers sa prestigieuse entreprise de construction et de promotion
+                        immobilière, Opes Holding S.A dont il en est le PDG, tout comme en sa qualité
+                        de Président de la Chambre Nationale des Promoteurs et Constructeurs Agréés
+                        de Côte d’ Ivoire (CNPC-CI) et qui prend une part active remarquable dans
+                        l’ambitieux Programme Présidentiel de logements Sociaux, Economiques, et
+                        Standing en Côte d’Ivoire.</p>
+                    <h5 class="mt-3">Bio express de Siriki SANGARE</h5>
+                    <span class="line mb-2"></span>
+                    <h6 class="date">Depuis Février 2014 :</h6>
+                    <p>Président de la Chambre Nationale des Promoteurs et Constructeurs Agréés de Côte d’Ivoire</p>
+                    <h6 class="date">Depuis MAI 2012 :</h6>
+                    <p>Président Directeur Général d’OPES HOLDING S.A Société de Promotion et de Construction
+                        Immobilière.</p>
+                    <h6 class="date">Depuis 2010 :</h6>
+                    <p>Président du Conseil d’Administration du Cabinet
+                        I.F.O.R (Ingénierie Formation, Organisation et
+                        Réalisation),Réalisation d’étude de faisabilité de développement rural,
+                        I.F.O.R appui technique aux opérations agricoles, mise en
+                        œuvre suivi et évaluation de projets de développement rural.</p>
+                    <h6 class="date">2004-2005 :</h6>
+                    <p>E-Négoce Directeur Général
+                        - Négoce de matières premières (café, cacao, noix de cajou,
+                        graine de coton)</p>
+                    <h6 class="date">1998-2004 :</h6>
+                    <p>Administrateur de société
+                        - Consultant auprès : des COOPEX et des PMEX
+                        - Négociation de contrats commerciaux</p>
+                    <h6 class="date">1997 -1998:</h6>
+                    <p>Directeur SOGIMEX Antenne de San-Pedro
+                        - Achat et export de 80.000 tonnes de café cacao</p>
+                    <h6 class="date">1994-1996 ::</h6>
+                    <p>Directeur d’exploitation SOGIMEX
+                        - Achat et export de 120.000 tonnes de café cacao</p>
+                    <h6 class="date">1993 -1994 :</h6>
+                    <p>Directeur technico-commercial SOCOMELEC IVOIRE</p>
+                    <h6 class="date">1992 :</h6>
+                    <p>Ingénieur en Génie électronique (INSET, INPHB de
+                        Yamoussoukro, Côte d’ Ivoire)</p>
+                    <h6 class="date">1990-1991 :</h6>
+                    <p>Maîtrise des Sciences et Techniques électroniques,
+                        Électrotechniques, automatisme et informatique</p>
+                    <h6 class="date">1987-1989 ::</h6>
+                    <p>Diplôme d’études universitaires scientifiques (mathématiques,
+                        Physiques, technologiques) (Université d’Abidjan, Côte d’
+                        Ivoire)</p>
+                    <h6 class="date">1986 ::</h6>
+                    <p>Baccalauréat série E avec mention Bien, Lycée Technique de
+                        Bouaké (Côte d’Ivoire)</p>
+                    <h6 class="date">(26 janvier) 1967::</h6>
+                    <p>Naissance à Katiola</p>
+                    <h5 class="mt-3">PRIX OBTENUS PAR LE PDG SANGARE SIRIKI</h5>
+                    <span class="line mb-2"></span>
+                    <p>-Prix de la meilleure innovation et management en matière de promotion et
+                        construction immobilière décerné en 2014 à DUBAI, aux Emirats Arabes Unis</p>
+                    <p>-Prix des Oscars du Meilleur Management décerné en 2015, à Paris par le
+                        Conseil international des Managers africains (Cima)</p>
+                    <p>-Prix International du Meilleur Manager africain décerné par le Conseil
+                        International des Managers Africains (CIMA) à Paris, en juin 2016</p>
+                    <p>-Prix d’excellence 2016 du Meilleur Promoteur immobilier de Côte d’Ivoire
+                        décerné en août 2016 par SEM ALASSANE OUATTARA, Président de la
+                        République de Côte d’Ivoire</p>
+                    <p>-Prix du Meilleur partenariat en matière immobilière décerné à Tunis en Tunisie
+                        par le chambre syndicale des promoteurs immobiliers de Tunis en présence du
+                        1 er conseiller de l’Ambassade de Côte d’Ivoire à Tunis , en 2016</p>
+                    <p>-Prix du Meilleur promoteur immobilier 2017 décerné par la FIABCI,
+                        (Fédération international des professions immobilières) décerné à Nice , en
+                        France .</p>
+                    <p>-Prix des Bâtisseurs de l’Economie 2017 du Meilleur Promoteur de logements
+                        sociaux</p>
+                    <p>-Prix Padel 2017 du Meilleur Promoteur immobilier décerné en Novembre 2017
+                        à Casablanca, au Maroc.</p>
+                    <p>-Prix Labell des Consommateurs 2019 du Meilleur Promoteur immobilier de
+                        Côte d’Ivoire</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Start Footer  Section -->
     <footer class="footer">
         <div class="footer-wrapper">
@@ -866,10 +1148,10 @@
     </footer>
     <!-- End Footer Section -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="scripts/owl.carousel.min.js"></script>
     <script>
         $(".owl-slider-president").owlCarousel({
@@ -914,45 +1196,6 @@
                 }
             }
         });
-
-        /* if ($(".list-group-item-action").hasClass("active")) {
-            console.log($(this));
-            $(".list-group-item-action.active").find(".icon-che").addClass("d-inline-block")
-            $(".list-group-item-action.active").find(".icon-minus").addClass("d-none")
-        } else {
-            $(".list-group-item-action").find(".icon-che").removeClass("d-inline-block")
-            $(".list-group-item-action").find(".icon-minus").removeClass("d-none")
-            $(".list-group-item-action").find(".icon-che").removeClass("d-none")
-            $(".list-group-item-action").find(".icon-minus").removeClass("d-inline-block")
-            $(".list-group-item-action").find(".icon-che").addClass("d-none")
-            $(".list-group-item-action").find(".icon-minus").addClass("d-inline-block")
-        } */
-
-
-        /*
-                $(".list-group-item-action").on("click", (e) => {
-                    if ($(e.target).hasClass("active")) {
-                        $(e.target).find(".icon-chev").removeClass('d-inline-block');
-                        $(e.target).find(".icon-chev").removeClass('d-none');
-                        $(e.target).find(".icon-minus").removeClass('d-inline-block');
-                        $(e.target).find(".icon-minus").removeClass('d-none');
-        
-                        $(e.target).find(".icon-chev").addClass('d-inline-block');
-                        $(e.target).children('.icon-minus').addClass('d-none');
-                    } else {
-                        $(e.target).find(".icon-chev").removeClass('d-inline-block');
-                        $(e.target).find(".icon-chev").removeClass('d-none');
-                        $(e.target).find(".icon-minus").removeClass('d-inline-block');
-                        $(e.target).find(".icon-minus").removeClass('d-none');
-        
-                        $(e.target).find(".icon-chev").addClass('d-none');
-                        $(e.target).children('.icon-minus').addClass('d-inline-block');
-                    }
-                })
-         */
-
-
-
     </script>
 </body>
 
