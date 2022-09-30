@@ -269,14 +269,14 @@
 }
 #list-secretariat-general .person,
 #list-tresorerie-generale .person {
-  top: 0rem;
-  right: 24px;
-  width: 73%;
+  width: 28rem;
+  right: 7rem;
+  bottom: 9rem;
+  position: absolute;
 }
 
 .btn-show {
   position: absolute;
-  left: 5rem;
   cursor: pointer;
   border: 0;
   padding: 0.5rem 3rem;
@@ -284,10 +284,10 @@
 }
 
 .person {
+  width: 28rem;
+  right: 7rem;
+  bottom: 9rem;
   position: absolute;
-  top: 1rem;
-  right: 18px;
-  width: 74%;
 }
 .sign {
   margin-left: 5rem;
@@ -308,10 +308,10 @@
 
 @media only screen and (max-width: 1200px) {
   .person {
+    width: 28rem;
+    right: 7rem;
+    bottom: 9rem;
     position: absolute;
-    top: -1rem;
-    right: 6rem;
-    width: 66%;
   }
   .organe-section {
     padding: 1rem;
