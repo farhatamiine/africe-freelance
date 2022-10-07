@@ -51,3 +51,5 @@ $(document).ready(function () {
     offset: "50%",
   });
 });
+
+//bootstrap.Tab.getInstance(document.querySelector('#list-tab a[href="#list-adherents"]')).show()
