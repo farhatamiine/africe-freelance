@@ -81,6 +81,10 @@
   color: #193b23;
 }
 
+a{
+  text-decoration: none;
+}
+
 .about .about-header .title-container span {
   background-color: #caa45d;
   display: block;
@@ -395,7 +399,7 @@
   }
 
   .structure {
-    height: 80rem;
+    height: auto;
   }
 
   #collapseWidthExample #person {
