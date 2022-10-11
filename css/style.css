@@ -496,3 +496,15 @@ a {
 .counter:not(.is-visible) {
   visibility: hidden;
 }
+.modal-dialog {
+  max-width: 40rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
