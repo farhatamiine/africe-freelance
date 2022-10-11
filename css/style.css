@@ -9,7 +9,9 @@
 
 .hero-section {
   margin-top: 30px;
-  height: 500pt;
+  min-height: 500pt;
+  max-height: 600pt;
+  padding: 0;
 }
 
 #carouselHeroIndicators .carousel-item img {

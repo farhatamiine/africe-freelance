@@ -1,217 +1,206 @@
-.hero-section{
-    background: linear-gradient(0deg, rgba(1, 42, 2, 0.9), rgba(1, 42, 2, 0.5)), url("../img/image@2x.png") center center no-repeat;
-    height: 25rem;
-    display: flex;
-    align-items: center;
+.hero-section {
+  background: linear-gradient(0deg, rgba(1, 42, 2, 0.9), rgba(1, 42, 2, 0.5)),
+    url("../img/image@2x.png") center center no-repeat;
+  height: 25rem;
+  display: flex;
+  align-items: center;
 }
 
-.hero-section .hero-title{
-    text-align: center;
-    color: white;
-    width: 40%;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid white;
+.hero-section .hero-title {
+  text-align: center;
+  color: white;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 
-.contact-section{
-    margin-top: 5rem;
-    padding: 3rem 0;
+.contact-section {
+  margin-top: 5rem;
+  padding: 3rem 0;
 }
-
-
 
 .contact-section .contact-container {
-    border-radius: 5px;
-    background-color: rgb(248, 248, 248);
-    position: relative;
-    text-align: center;
-    display: flex;   
-    flex-direction: column;
-    align-items: center;
-    min-height: 13rem;
-    
-    padding-top: 3rem;
+  border-radius: 5px;
+  background-color: rgb(248, 248, 248);
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 13rem;
+
+  padding-top: 3rem;
 }
 
-.btn-green{
-    background-color: rgb(0, 55, 29);
-    color: white;
+.btn-green {
+  background-color: rgb(0, 55, 29);
+  color: white;
 }
 
 .contact-section .contact-logo {
-    background-color: rgb(0, 55, 29);
-    width: 6rem;
-    height: 6rem;
-    border-radius: 12px;
-    position: absolute;
-    top: -4rem;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: rgb(0, 55, 29);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 12px;
+  position: absolute;
+  top: -4rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.contact-section .contact-logo img{
-    width: 50%;
-}
-
-.contact-section .contact-title{
-    font-weight: lighter;
-    text-transform: uppercase;
-    margin-bottom: 15px;
+.contact-section .contact-logo img {
+  width: 50%;
 }
 
-
-.contact-section .contact-info p{
-    font-weight: 600;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 0;
+.contact-section .contact-title {
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 15px;
 }
 
-
-.contact-form-section{
-    margin-bottom: 4rem
+.contact-section .contact-info p {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
-.contact-form-wrapper{
-    border-top: 2px solid rgb(114, 112, 112);
-    border-bottom: 2px solid rgb(114, 112, 112);
-    padding-top: 4rem;
+.contact-form-section {
+  margin-bottom: 4rem;
 }
 
-.contact-form-section .contact-form-left-title{
-    text-align: justify;
-    font-size: 50px;
-    font-weight: 600;
-    color: rgb(114, 112, 112);
+.contact-form-wrapper {
+  border-top: 2px solid rgb(114, 112, 112);
+  border-bottom: 2px solid rgb(114, 112, 112);
+  padding-top: 4rem;
 }
 
-
-
-.contact-form-section .contact-form-left-text{
-    text-align: justify;
-    font-size: 25px;
-    font-weight: lighter;
+.contact-form-section .contact-form-left-title {
+  text-align: justify;
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(114, 112, 112);
 }
 
-.social-media-section{
-    padding: 3rem;
-    margin-bottom: 10rem;
+.contact-form-section .contact-form-left-text {
+  text-align: justify;
+  font-size: 25px;
+  font-weight: lighter;
 }
 
-.social-media-section .title{
-    text-transform: uppercase;
+.social-media-section {
+  padding: 3rem;
+  margin-bottom: 10rem;
 }
 
-.social-media-section .social-card{
-    width: 12rem;
-    height: 12rem;
-    border: 2px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    border-radius: 8px;
-    justify-content: center;
+.social-media-section .title {
+  text-transform: uppercase;
 }
-.social-media-section .card-wrapper{
-    display: flex;
-    justify-content: flex-start;
-    gap: 1rem;
-    flex-wrap: wrap;
+
+.social-media-section .social-card {
+  width: 12rem;
+  height: 12rem;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  border-radius: 8px;
+  justify-content: center;
+}
+.social-media-section .card-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .social-contact {
-    background-color: rgb(245, 240, 230);
-    height: 20rem;
-    width: 100%;
-    position: relative;
-    display: flex;align-items: center;
-    justify-content: center;
+  background-color: rgb(245, 240, 230);
+  height: 20rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.social-contact .social-circle {
+  width: 13rem;
+  height: 13rem;
+  position: absolute;
+  background-color: rgb(245, 240, 230);
+  display: flex;
+  align-items: flex-start;
+  padding: 5px;
+  justify-content: center;
 
-.social-contact .social-circle{
-    width: 13rem;
-    height: 13rem;
-    position: absolute;
-    background-color: rgb(245, 240, 230);
-    display: flex;
-    align-items: flex-start;
-    padding: 5px;
-    justify-content: center;
-    
-    border-radius: 20px;
-    top: -6rem;
-
+  border-radius: 20px;
+  top: -6rem;
 }
 
-.social-contact .social-circle img{
-    width: 80%;
+.social-contact .social-circle img {
+  width: 80%;
 }
 
 .social-contact .item {
-    width: auto;
-    min-width: 40px;
-    border-right: 1px solid;
-    height: auto;
-    text-align: center;
+  width: auto;
+  min-width: 40px;
+  border-right: 1px solid;
+  height: auto;
+  text-align: center;
 }
-.social-contact .item h4{
-    color: rgb(0, 55, 29);
-    font-weight: 700;
-    margin-bottom: 15px;
-
+.social-contact .item h4 {
+  color: rgb(0, 55, 29);
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.social-contact .item p{
-    margin: 0;
-    font-size: 1.3rem;
+.social-contact .item p {
+  margin: 0;
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
 
-    /*Tablets [601px -> 1200px]*/
-   
-    .contact-section .contact-container {
-        margin-bottom: 8rem;
-       
-    }
+  .contact-section .contact-container {
+    margin-bottom: 8rem;
+  }
 
-    .social-media-section .title{
-        text-align: center;
-        margin-bottom: 2rem;
-    }
+  .social-media-section .title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
 
-    br{
-        display: none;
-    }
-    .contact-form-section button{
-        margin-bottom: 3rem;
-    }
+  br {
+    display: none;
+  }
+  .contact-form-section button {
+    margin-bottom: 3rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-
-    /*Big smartphones [426px -> 600px]*/
-    .contact-section .contact-container {
-        margin-bottom: 6rem;
-    }
-    .contact-form-section button{
-        margin-bottom: 3rem;
-    }
+  /*Big smartphones [426px -> 600px]*/
+  .contact-section .contact-container {
+    margin-bottom: 6rem;
+  }
+  .contact-form-section button {
+    margin-bottom: 3rem;
+  }
 }
 
 @media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .contact-section .contact-container {
+    margin-bottom: 6rem;
+  }
 
-    /*Small smartphones [325px -> 425px]*/
-    .contact-section .contact-container {
-        margin-bottom: 6rem;
-    }
-
-    .contact-form-section button{
-        margin-bottom: 3rem;
-    }
+  .contact-form-section button {
+    margin-bottom: 3rem;
+  }
 }
