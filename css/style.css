@@ -19,7 +19,15 @@
   background-size: contain;
   border-bottom: 10px solid #008340;
 }
+.list-mission {
+  color: white;
+}
 
+.list-mission li {
+  font-size: 1.3rem;
+
+  margin-bottom: 3px;
+}
 .hero-second {
   margin-top: 5px;
   height: 199.31984933301pt;
